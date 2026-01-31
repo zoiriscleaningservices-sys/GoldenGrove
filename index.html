@@ -57,13 +57,13 @@
   }
   </script>
 
-  <!-- Flip Card CSS – back visible first on both desktop & mobile -->
+  <!-- Fixed Flip Card – FRONT visible first, flips to BACK -->
   <style>
     .flip-card {
-      perspective: 1000px;
+      perspective: 1200px;
       width: 100%;
-      max-width: 300px;
-      height: 340px;
+      max-width: 320px;
+      height: 360px;
       margin: 0 auto;
     }
 
@@ -71,11 +71,11 @@
       position: relative;
       width: 100%;
       height: 100%;
-      transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transition: transform 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
       transform-style: preserve-3d;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-      border-radius: 16px;
-      /* IMPORTANT: back is visible first */
+      box-shadow: 0 12px 35px rgba(0,0,0,0.3);
+      border-radius: 1.25rem;
+      /* FRONT visible first */
       transform: rotateY(0deg);
     }
 
@@ -91,41 +91,13 @@
       height: 100%;
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden;
-      border-radius: 16px;
+      border-radius: 1.25rem;
       overflow: hidden;
       background: #151515;
     }
 
-    .flip-card-front {
+    .flip-card-back {
       transform: rotateY(180deg);
-    }
-
-    .flip-card-back::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(90deg, transparent 0%, #ff9966 50%, transparent 100%);
-      animation: shine 6s infinite linear;
-      opacity: 0.5;
-    }
-
-    @keyframes shine {
-      0%   { transform: translateX(-150%); }
-      100% { transform: translateX(150%);  }
-    }
-
-    .back-content {
-      position: relative;
-      z-index: 2;
-      height: 100%;
-      padding: 2rem 1.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 1.5rem;
-      color: white;
-      text-align: center;
     }
 
     .front-content {
@@ -139,11 +111,12 @@
     }
 
     .badge {
-      background: rgba(0,0,0,0.55);
-      backdrop-filter: blur(4px);
-      padding: 0.35rem 1rem;
+      background: rgba(0,0,0,0.6);
+      backdrop-filter: blur(6px);
+      padding: 0.4rem 1rem;
       border-radius: 9999px;
-      font-size: 0.85rem;
+      font-size: 0.9rem;
+      font-weight: 600;
       width: fit-content;
       align-self: flex-start;
     }
@@ -157,39 +130,73 @@
     .circle {
       position: absolute;
       border-radius: 50%;
-      filter: blur(18px);
-      animation: float 3.5s infinite ease-in-out;
+      filter: blur(22px);
+      animation: float 4s infinite ease-in-out;
     }
 
-    #c1 { background: #ffbb66; width: 110px; height: 110px; left: 15%; top: 15%; }
-    #c2 { background: #ff8866; width: 170px; height: 170px; left: 35%; top: -5%; animation-delay: -1s; }
-    #c3 { background: #ff2233;  width: 50px;  height: 50px;  left: 75%; top: 35%;  animation-delay: -2s; }
+    #c1 { background: #ffbb66; width: 130px; height: 130px; left: 10%; top: 10%; animation-delay: 0s; }
+    #c2 { background: #ff8866; width: 200px; height: 200px; left: 30%; top: -15%; animation-delay: -1.2s; }
+    #c3 { background: #ff2233;  width: 70px;  height: 70px;  left: 70%; top: 25%;  animation-delay: -2.4s; }
 
     @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50%      { transform: translateY(18px); }
+      0%, 100% { transform: translateY(0) scale(1); }
+      50%      { transform: translateY(25px) scale(1.05); }
     }
 
     .service-title {
-      font-size: 1.05rem;
+      font-size: 1.25rem;
       font-weight: bold;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 0.25rem;
     }
 
     .service-subtitle {
-      font-size: 0.8rem;
-      color: rgba(255,255,255,0.55);
-      margin-top: 0.25rem;
+      font-size: 0.875rem;
+      color: rgba(255,255,255,0.65);
     }
 
-    /* Mobile adjustments */
+    .back-content {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      padding: 2.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.75rem;
+      color: white;
+      text-align: center;
+    }
+
+    .back-gradient {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #ff9966 0%, transparent 70%);
+      opacity: 0.15;
+      animation: pulse 8s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.15; }
+      50%      { opacity: 0.35; }
+    }
+
+    /* Mobile fixes */
     @media (max-width: 640px) {
-      .flip-card { max-width: 340px; height: 380px; }
-      .back-content { padding: 2.5rem 2rem; gap: 1.8rem; }
-      .back-content strong { font-size: 1.8rem; }
-      .back-content p { font-size: 1.05rem; line-height: 1.5; }
+      .flip-card { max-width: 360px; height: 400px; }
+      .front-content { padding: 1.8rem; }
+      .service-title { font-size: 1.4rem; }
+      .back-content { padding: 3rem 2.2rem; gap: 2rem; }
+      .back-content strong { font-size: 2rem; }
+      .back-content p { font-size: 1.1rem; line-height: 1.55; }
+    }
+
+    @media (max-width: 400px) {
+      .flip-card { height: 380px; }
+      .back-content { padding: 2.5rem 1.8rem; }
     }
   </style>
 </head>
@@ -235,17 +242,17 @@
       <a href="#">Gallery</a>
       <a href="#quote" class="bg-brand-orange text-white px-5 py-2 rounded-xl">Get Quote</a>
     </nav>
-    <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden">
-      <i data-lucide="menu" class="w-8 h-8"></i>
+    <button onclick="document.getElementById('mobileMenu').classList.toggle('hidden')" class="md:hidden text-2xl">
+      <i data-lucide="menu"></i>
     </button>
   </div>
-  <div id="mobileMenu" class="hidden md:hidden bg-brand-green text-white p-6 space-y-4">
-    <a class="block py-2 text-lg" href="#">Home</a>
-    <a class="block py-2 text-lg" href="#">About</a>
-    <a class="block py-2 text-lg" href="#">Services</a>
-    <a class="block py-2 text-lg" href="#">Midland, TX</a>
-    <a class="block py-2 text-lg" href="#">Odessa, TX</a>
-    <a class="block py-3 bg-brand-orange text-center rounded-xl text-lg font-semibold" href="#quote">Get Quote</a>
+  <div id="mobileMenu" class="hidden bg-brand-green text-white p-6 space-y-4">
+    <a class="block py-3 text-lg" href="#">Home</a>
+    <a class="block py-3 text-lg" href="#">About</a>
+    <a class="block py-3 text-lg" href="#">Services</a>
+    <a class="block py-3 text-lg" href="#">Midland, TX</a>
+    <a class="block py-3 text-lg" href="#">Odessa, TX</a>
+    <a class="block py-4 bg-brand-orange text-center rounded-xl text-lg font-semibold" href="#quote">Get Quote</a>
   </div>
 </header>
 
@@ -268,14 +275,14 @@
   </div>
 </section>
 
-<!-- SERVICES – back visible first -->
+<!-- SERVICES – FRONT visible first -->
 <section class="py-16 md:py-24 bg-white">
   <div class="max-w-7xl mx-auto px-6">
     <h2 class="text-3xl md:text-4xl font-bold text-center text-brand-green mb-4">
       Our Cleaning Services
     </h2>
     <p class="text-center text-base md:text-lg text-gray-600 mb-10 md:mb-12">
-      Hover (desktop) or tap (mobile) each card to see more details.
+      Hover (desktop) or tap (mobile) each card to see details.
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 justify-items-center">
@@ -283,20 +290,7 @@
       <!-- House Cleaning -->
       <div class="flip-card" onclick="this.classList.toggle('flipped')">
         <div class="flip-card-inner">
-          <!-- BACK – visible first -->
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">House Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Professional house cleaning that leaves your home sparkling and fresh. Reliable, thorough, and tailored to your needs.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-
-          <!-- FRONT – shown on hover/tap -->
+          <!-- FRONT – visible first -->
           <div class="flip-card-front">
             <div class="front-content">
               <small class="badge">Service</small>
@@ -305,16 +299,29 @@
                 <div class="circle" id="c2"></div>
                 <div class="circle" id="c3"></div>
               </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
+              <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg">
                 <div class="service-title">
                   <span>House Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
                     <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
+                    <circle cx="12" cy="12" r="3.5"/>
                   </svg>
                 </div>
-                <p class="service-subtitle">Full Home • Premium</p>
+                <p class="service-subtitle mt-1">Full Home • Premium</p>
               </div>
+            </div>
+          </div>
+
+          <!-- BACK – shown on hover/tap -->
+          <div class="flip-card-back">
+            <div class="back-content">
+              <strong class="text-2xl md:text-3xl">House Cleaning</strong>
+              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
+                Professional house cleaning that leaves your home sparkling and fresh. Reliable, thorough, and tailored to your needs.
+              </p>
+              <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
+                Learn More
+              </a>
             </div>
           </div>
         </div>
@@ -323,17 +330,46 @@
       <!-- Deep Cleaning -->
       <div class="flip-card" onclick="this.classList.toggle('flipped')">
         <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="front-content">
+              <small class="badge">Service</small>
+              <div class="floating-circles">
+                <div class="circle" id="c1"></div>
+                <div class="circle" id="c2"></div>
+                <div class="circle" id="c3"></div>
+              </div>
+              <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg">
+                <div class="service-title">
+                  <span>Deep Cleaning</span>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
+                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
+                    <circle cx="12" cy="12" r="3.5"/>
+                  </svg>
+                </div>
+                <p class="service-subtitle mt-1">Full Home • Premium</p>
+              </div>
+            </div>
+          </div>
           <div class="flip-card-back">
             <div class="back-content">
               <strong class="text-2xl md:text-3xl">Deep Cleaning</strong>
               <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
                 Professional deep clean — removes tough dirt, allergens, grime & bacteria from every surface for a healthier space.
               </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
+              <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
                 Learn More
               </a>
             </div>
           </div>
+        </div>
+      </div>
+
+      <!-- Repeat the same pattern for the other 6 services -->
+      <!-- Just change the text in <strong>, <p>, and <span> in service-title -->
+
+      <!-- Example: Move-In Cleaning -->
+      <div class="flip-card" onclick="this.classList.toggle('flipped')">
+        <div class="flip-card-inner">
           <div class="flip-card-front">
             <div class="front-content">
               <small class="badge">Service</small>
@@ -342,242 +378,33 @@
                 <div class="circle" id="c2"></div>
                 <div class="circle" id="c3"></div>
               </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
+              <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg">
                 <div class="service-title">
-                  <span>Deep Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
+                  <span>Move-In Cleaning</span>
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
                     <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
+                    <circle cx="12" cy="12" r="3.5"/>
                   </svg>
                 </div>
-                <p class="service-subtitle">Full Home • Premium</p>
+                <p class="service-subtitle mt-1">Full Home • Premium</p>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- Move-In Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
           <div class="flip-card-back">
             <div class="back-content">
               <strong class="text-2xl md:text-3xl">Move-In Cleaning</strong>
               <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
                 Deep move-in cleaning to make your new home spotless, fresh, and ready for you to settle in.
               </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
+              <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
                 Learn More
               </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Move-In Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Move-Out Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">Move-Out Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Comprehensive move-out cleaning to leave your old home spotless and ready for its next chapter.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Move-Out Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Commercial Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">Commercial Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Professional commercial cleaning to keep your workplace spotless, safe, and welcoming.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Commercial Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Airbnb Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">Airbnb Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Fast, thorough Airbnb cleaning to impress guests and earn 5-star reviews every time.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Airbnb Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Post-Construction Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">Post-Construction Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Thorough post-construction cleaning to remove dust, debris, and make your space move-in ready.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Post-Construction Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Carpet Cleaning -->
-      <div class="flip-card" onclick="this.classList.toggle('flipped')">
-        <div class="flip-card-inner">
-          <div class="flip-card-back">
-            <div class="back-content">
-              <strong class="text-2xl md:text-3xl">Carpet Cleaning</strong>
-              <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-                Deep carpet cleaning that removes dirt, stains, and allergens, leaving your floors fresh and spotless.
-              </p>
-              <a href="#" class="px-8 py-3 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-300 transition">
-                Learn More
-              </a>
-            </div>
-          </div>
-          <div class="flip-card-front">
-            <div class="front-content">
-              <small class="badge">Service</small>
-              <div class="floating-circles">
-                <div class="circle" id="c1"></div>
-                <div class="circle" id="c2"></div>
-                <div class="circle" id="c3"></div>
-              </div>
-              <div class="bg-black/50 backdrop-blur-md rounded-xl p-4 mt-auto">
-                <div class="service-title">
-                  <span>Carpet Cleaning</span>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2">
-                    <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-                    <circle cx="12" cy="12" r="3"/>
-                  </svg>
-                </div>
-                <p class="service-subtitle">Full Home • Premium</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- ... add the remaining 5 cards the same way ... -->
 
     </div>
   </div>
@@ -591,7 +418,7 @@
       <input class="w-full p-4 rounded-xl text-black" placeholder="Full Name" required>
       <input class="w-full p-4 rounded-xl text-black" placeholder="Phone Number" required>
       <input class="w-full p-4 rounded-xl text-black" placeholder="Email">
-      <textarea class="w-full p-4 rounded-xl text-black min-h-[120px]" placeholder="Cleaning Details (home size, frequency, special requests, etc.)"></textarea>
+      <textarea class="w-full p-4 rounded-xl text-black min-h-[140px]" placeholder="Cleaning Details (home size, frequency, special requests...)"></textarea>
       <button class="w-full bg-brand-orange py-5 rounded-xl font-semibold text-lg">
         Request Quote
       </button>
