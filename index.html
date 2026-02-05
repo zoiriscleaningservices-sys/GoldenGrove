@@ -215,333 +215,12 @@
  
 
 
-    <!-- Flip Card Styles -->
-  <style>
-    .flip-card {
-      perspective: 1200px;
-      width: 100%;
-      max-width: 340px;
-      height: 380px;
-      margin: 0 auto;
-      cursor: pointer;
-      user-select: none;
-      -webkit-tap-highlight-color: transparent;
-    }
-
-    .flip-card-inner {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
-      transform-style: preserve-3d;
-      box-shadow: 0 12px 40px rgba(0,0,0,0.3);
-      border-radius: 1.25rem;
-      transform: rotateY(0deg); /* FRONT visible first */
-    }
-
-    /* Desktop hover */
-    @media (hover: hover) and (pointer: fine) {
-      .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-      }
-    }
-
-    /* Mobile tap */
-    .flip-card.flipped .flip-card-inner {
-      transform: rotateY(180deg);
-    }
-
-    .flip-card-front,
-    .flip-card-back {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      border-radius: 1.25rem;
-      overflow: hidden;
-      background: #151515;
-    }
-
-    .flip-card-back {
-      transform: rotateY(180deg);
-    }
-
-    .front-content {
-      position: relative;
-      height: 100%;
-      padding: 1.8rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      color: white;
-    }
-
-    .badge {
-      background: rgba(0,0,0,0.65);
-      backdrop-filter: blur(8px);
-      padding: 0.45rem 1.1rem;
-      border-radius: 9999px;
-      font-size: 0.95rem;
-      font-weight: 600;
-      width: fit-content;
-      align-self: flex-start;
-    }
-
-    .floating-circles {
-      position: absolute;
-      inset: 0;
-      pointer-events: none;
-    }
-
-    .circle {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(24px);
-      animation: float 4.5s infinite ease-in-out;
-    }
-        #c1 { background: #ffbb66; width: 140px; height: 140px; left: 10%; top: 10%; }
-    #c2 { background: #ff8866; width: 210px; height: 210px; left: 35%; top: -10%; animation-delay: -1.4s; }
-    #c3 { background: #ff2233;  width: 80px;  height: 80px;  left: 70%; top: 30%;  animation-delay: -2.8s; }
-
-    @keyframes float {
-      0%, 100% { transform: translateY(0) scale(1); }
-      50%      { transform: translateY(30px) scale(1.08); }
-    }
-
-
-   
-    .service-title {
-      font-size: 1.35rem;
-      font-weight: bold;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .service-subtitle {
-      font-size: 0.95rem;
-      color: rgba(255,255,255,0.7);
-      margin-top: 0.35rem;
-    }
-
-    .back-content {
-      position: relative;
-      z-index: 2;
-      height: 100%;
-      padding: 3rem 2.5rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 2rem;
-      color: white;
-      text-align: center;
-    }
-
-    .back-gradient {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(135deg, #ff9966 0%, transparent 70%);
-      opacity: 0.2;
-      animation: pulse 10s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 0.2; }
-      50%      { opacity: 0.4; }
-    }
-
-    /* Mobile adjustments */
-    @media (max-width: 640px) {
-      .flip-card { max-width: 380px; height: 420px; }
-      .front-content { padding: 2rem; }
-      .service-title { font-size: 1.5rem; }
-      .back-content { padding: 3.5rem 2.8rem; gap: 2.3rem; }
-      .back-content strong { font-size: 2.2rem; }
-      .back-content p { font-size: 1.2rem; line-height: 1.6; }
-    }
-
-    @media (max-width: 400px) {
-      .flip-card { height: 400px; }
-      .back-content { padding: 3rem 2.2rem; }
-    }
-
-
-
-
-@keyframes heartbeat {
-  0%   { opacity: 0; transform: scale(0.5); }
-  30%  { opacity: 1; transform: scale(1.35); }
-  50%  { transform: scale(0.92); }
-  70%  { transform: scale(1.12); }
-  90%  { transform: scale(0.97); }
-  100% { transform: scale(1); }
-}
-
-/* Base nav link style */
-.nav-link {
-  position: relative;
-  color: #1f2937;
-  transition: color 0.25s;
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -6px;
-  left: 0;
-  background-color: #f97316;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #f97316;
-}
-
-.nav-link:hover::after,
-.nav-link:focus::after {
-  width: 100%;
-}
-
-/* Mobile accordion */
-.mobile-accordion button svg {
-  transform: rotate(0deg);
-}
-
-.mobile-accordion[open] button svg {
-  transform: rotate(180deg);
-}
-
-/* Smooth transitions */
-.mobile-panel {
-  transition: all 0.35s ease;
-  overflow: hidden;
-}
-
-.mobile-panel[style*="height: 0px"] {
-  opacity: 0;
-}
-
-
-.mobile-accordion svg {
-  transition: transform 0.3s ease;
-}
-
-.mobile-accordion svg.rotate-180 {
-  transform: rotate(180deg);
-}
-
-.mobile-panel {
-  transition: max-height 0.35s ease-in-out, padding 0.35s ease-in-out;
-  overflow: hidden;
-}
-
-.flip-card {
-  width: 320px;
-  height: 420px;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.7s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner,
-.flip-card.flipped .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front,
-.flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-.flip-card-front {
-  background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
-  display: flex;
-  align-items: center;
-}
-
-.flip-card-back {
-  background: linear-gradient(135deg, #ff9966, #ff7733);
-  color: white;
-  transform: rotateY(180deg);
-}
-
-.front-content {
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.service-image-container {
-  width: 120px;
-  height: 120px;
-  margin: 2rem auto;
-  overflow: hidden;
-  border-radius: 50%;
-  border: 4px solid rgba(255, 187, 102, 0.35);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
-  background: rgba(255,255,255,0.08);
-  flex-shrink: 0;
-}
-
-.service-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-}
-
-.service-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: white;
-}
-
-.service-subtitle {
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.8);
-}
-
-.badge {
-  background: rgba(255, 187, 102, 0.25);
-  color: #ffbb66;
-  padding: 0.35rem 0.9rem;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  font-weight: 600;
-  backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 187, 102, 0.3);
-}
-  </style>
+ 
 </head>
+
+
+
   
-  <!-- Flip Card Styles (kept) -->
-  <style>
-    .flip-card { /* ... existing styles ... */ }
-    /* ... rest of flip card styles ... */
-    /* Added orange emphasis */
-    .badge { background: #F28C28; color: white; }
-    .service-title svg { stroke: #F28C28 !important; }
-  </style>
-</head>
-<body class="bg-brand-light text-brand-dark">
 
 
 <!-- MODERN HEADER – with nested Locations (Texas + Florida) on desktop & mobile -->
@@ -891,8 +570,33 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
 
  </section>
  
+<!-- SERVICES – Modern 2025 Style + Strong SEO + Glassmorphism 
 
-<!-- SERVICES – all 8 included with AOS scroll animations --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- SERVICES – Modern 2025 Style + Strong SEO + Glassmorphism Cards -->
 <section class="py-16 md:py-24 relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50">
@@ -916,24 +620,204 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
     </div>
 
     <!-- Service cards grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 justify-items-center">
       
+      <!-- ─────────────────────────────────────── -->
+      <!--             CSS (put in <head> or style tag)         -->
+      <!-- ─────────────────────────────────────── -->
+      <style>
+        .flip-card {
+          background-color: transparent;
+          perspective: 1000px;
+          height: 420px;
+          width: 100%;
+          max-width: 380px;
+          margin: 0 auto;
+        }
+        
+.front-content {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* vertically center */
+  align-items: center;      /* horizontally center */
+  text-align: center;       /* optional: center text inside */
+}
 
-    </div> 
+
+
+
+
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+          transform-style: preserve-3d;
+          box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+          border-radius: 16px;
+        }
+
+        .flip-card:hover .flip-card-inner,
+        .flip-card.flipped .flip-card-inner {
+          transform: rotateY(180deg);
+        }
+
+        .flip-card-front,
+        .flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          border-radius: 16px;
+          overflow: hidden;
+        }
+
+        .flip-card-front {
+          background: white;
+        }
+
+        /* Updated back side – orange background + very dark text */
+        .flip-card-back {
+          background: linear-gradient(135deg, #f97316 0%, #c2410c 100%); /* rich orange gradient */
+          color: #0f0f0f;  /* almost black / very dark gray-black for high contrast */
+          transform: rotateY(180deg);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2rem 1.5rem;
+        }
+
+        .back-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1.25rem;
+          text-align: center;
+        }
+
+        .back-content strong {
+          color: #000000;   /* pure black for titles */
+          text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+        }
+
+        .back-content p {
+          color: #111111;   /* very dark gray-black */
+        }
+
+        /* Touch devices: make tap toggle the flip */
+        @media (hover: none) {
+          .flip-card {
+            cursor: pointer;
+          }
+        }
+
+        /* Learn More button hover animation */
+        .learn-more-btn {
+          transition: all 0.25s ease;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+
+        .learn-more-btn:hover {
+          transform: translateY(-2px) scale(1.05);
+          background: #ffbb88 !important;
+          box-shadow: 0 10px 25px rgba(255, 153, 102, 0.45);
+          color: #111 !important;
+        }
+
+        .learn-more-btn:active {
+          transform: translateY(0) scale(0.98);
+        }
+      </style>
+
+      <!-- 1. House Cleaning -->
+      <div class="flip-card" data-aos="flip-left" data-aos-delay="100" onclick="this.classList.toggle('flipped')">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="front-content relative h-full w-full">
+              <div class="absolute inset-0">
+                <img 
+                  src="https://i.ibb.co/SDDYxzgB/20260202-1232-Image-Generation-remix-01kgfszst8ej3vzc39qaq7wrrd-1.png" 
+                  alt="Clean modern living room" 
+                  class="h-full w-full object-cover"
+                >
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+              <small class="badge absolute top-4 left-4 z-10 bg-orange-500/90 text-white px-3 py-1 rounded-full text-sm font-semibold">Service</small>
+              <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10 mx-3 mb-4">
+                <div class="service-title flex items-center justify-between text-white text-xl font-bold">
+                  <span>House Cleaning 🧸</span>
+                </div>
+                <p class="service-subtitle mt-1 text-orange-200 text-sm">Full Home • Premium</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-content">
+              <strong class="text-3xl font-bold">House Cleaning</strong>
+              <p class="text-base leading-relaxed opacity-90">
+                Professional house cleaning that leaves your home sparkling and fresh. Reliable, thorough, and tailored to your needs.
+              </p>
+              <a href="https://www.goldengrovecleaning.com/services/house-cleaning" 
+                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Deep Cleaning -->
+      <div class="flip-card" data-aos="flip-left" data-aos-delay="180" onclick="this.classList.toggle('flipped')">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="front-content relative h-full w-full">
+              <div class="absolute inset-0">
+                <img 
+                  src="https://i.ibb.co/xqRMCYg1/20260202-1259-Image-Generation-remix-01kgfvgvr1f9ws9jaj1qnv220r.png" 
+                  alt="Deep cleaning kitchen" 
+                  class="h-full w-full object-cover"
+                >
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
+              <small class="badge absolute top-4 left-4 z-10 bg-orange-500/90 text-white px-3 py-1 rounded-full text-sm font-semibold">Service</small>
+              <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10 mx-3 mb-4">
+                <div class="service-title flex items-center justify-between text-white text-xl font-bold">
+
+                  <span>Deep Cleaning 🧸</span>
+                  </svg>
+                </div>
+                <p class="service-subtitle mt-1 text-orange-200 text-sm">Full Home • Premium</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card-back">
+            <div class="back-content">
+              <strong class="text-3xl font-bold">Deep Cleaning</strong>
+              <p class="text-base leading-relaxed opacity-90">
+                Professional deep clean — removes tough dirt, allergens, grime & bacteria from every surface for a healthier space.
+              </p>
+              <a href="https://www.goldengrovecleaning.com/services/deep-cleaning" 
+                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The remaining cards (3–8) use exactly the same .flip-card-back style -->
+
+      <!-- Just copy-paste the pattern above for cards 3–8 -->
+
+    </div>
   </div>
 </section>
 
-<section class="py-16 md:py-24 relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50">
-  <!-- Background decorative blobs (same style as 3-step & why choose us) -->
-  <div class="absolute inset-0 pointer-events-none">
-    <div class="absolute -top-20 -left-20 w-[500px] h-[500px] md:w-[700px] md:h-[700px] bg-orange-200/20 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-20 -right-20 w-[500px] h-[500px] md:w-[700px] md:h-[700px] bg-orange-300/15 rounded-full blur-3xl"></div>
-    <div class="absolute top-1/3 left-1/4 w-[300px] h-[300px] bg-orange-100/25 rounded-full blur-2xl"></div>
-  </div>
-
-
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 justify-items-center">
 
 
 
@@ -948,329 +832,28 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
 
 
 
-<!-- 1. House Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="100">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://i.ibb.co/SDDYxzgB/20260202-1232-Image-Generation-remix-01kgfszst8ej3vzc39qaq7wrrd-1.png" 
-            alt="Clean modern living room" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>House Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">House Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Professional house cleaning that leaves your home sparkling and fresh. Reliable, thorough, and tailored to your needs.
-        </p>
-        <a href="https://www.goldengrovecleaning.com/" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 2. Deep Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="180">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://i.ibb.co/xqRMCYg1/20260202-1259-Image-Generation-remix-01kgfvgvr1f9ws9jaj1qnv220r.png" 
-            alt="Deep cleaning kitchen" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Deep Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Deep Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Professional deep clean — removes tough dirt, allergens, grime & bacteria from every surface for a healthier space.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 3. Move-In Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="260">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&auto=format&fit=crop&q=80" 
-            alt="Fresh empty apartment move-in" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Move-In Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Move-In Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Deep move-in cleaning to make your new home spotless, fresh, and ready for you to settle in.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 4. Move-Out Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="340">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&auto=format&fit=crop&q=80" 
-            alt="Clean empty apartment move-out" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Move-Out Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Move-Out Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Comprehensive move-out cleaning to leave your old home spotless and ready for its next chapter.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 5. Commercial Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="420">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1497366811353-11d25c50e367?w=800&auto=format&fit=crop&q=80" 
-            alt="Clean modern office space" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Commercial Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Commercial Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Professional commercial cleaning to keep your workplace spotless, safe, and welcoming.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 6. Airbnb Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="500">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1598928508446-7d1a19e5e8e2?w=800&auto=format&fit=crop&q=80" 
-            alt="Stylish Airbnb interior" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Airbnb Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Airbnb Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Fast, thorough Airbnb cleaning to impress guests and earn 5-star reviews every time.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 7. Post-Construction Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="580">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80" 
-            alt="Freshly cleaned new construction" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Post-Construction Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Post-Construction Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Thorough post-construction cleaning to remove dust, debris, and make your space move-in ready.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- 8. Carpet Cleaning -->
-<div class="flip-card" onclick="toggleCard(this)" data-aos="flip-left" data-aos-delay="660">
-  <div class="flip-card-inner"> 
-    <div class="flip-card-front">
-      <div class="front-content relative h-full w-full">
-        <div class="absolute inset-0">
-          <img 
-            src="https://images.unsplash.com/photo-1618220048045-1a6a7114a1c0?w=800&auto=format&fit=crop&q=80" 
-            alt="Professional carpet cleaning" 
-            class="h-full w-full object-cover"
-          >
-        </div>
-        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent"></div>
-        <small class="badge absolute top-4 left-4 z-10">Service</small>
-        <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10">
-          <div class="service-title flex items-center justify-between">
-            <span>Carpet Cleaning</span>
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#ffbb66" stroke-width="2.5">
-              <path d="M4 20h16M6 4l12 16M6 20l12-16" stroke-linecap="round"/>
-              <circle cx="12" cy="12" r="3.5"/>
-            </svg>
-          </div>
-          <p class="service-subtitle mt-1">Full Home • Premium</p>
-        </div>
-      </div>
-    </div>
-    <div class="flip-card-back">
-      <div class="back-content">
-        <strong class="text-2xl md:text-3xl">Carpet Cleaning</strong>
-        <p class="text-sm md:text-base leading-relaxed opacity-90 max-w-[90%]">
-          Deep carpet cleaning that removes dirt, stains, and allergens, leaving your floors fresh and spotless.
-        </p>
-        <a href="#" class="px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base hover:bg-orange-400 transition shadow-md">
-          Learn More
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
 
 
-    </div>
-  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
