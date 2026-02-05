@@ -592,13 +592,7 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
 
 
 
-
-
-
-
-
-
-<!-- SERVICES – Modern 2025 Style + Strong SEO + Glassmorphism Cards -->
+<!-- SERVICES – Modern 2025 Style + Strong SEO + Glassmorphism Cards (FIXED) -->
 <section class="py-16 md:py-24 relative overflow-hidden bg-gradient-to-br from-orange-50 via-white to-orange-50">
   <!-- Background decorative blobs -->
   <div class="absolute inset-0 pointer-events-none">
@@ -621,9 +615,9 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
 
     <!-- Service cards grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 justify-items-center">
-      
+
       <!-- ─────────────────────────────────────── -->
-      <!--             CSS (put in <head> or style tag)         -->
+      <!--             UPDATED CSS                  -->
       <!-- ─────────────────────────────────────── -->
       <style>
         .flip-card {
@@ -633,22 +627,8 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
           width: 100%;
           max-width: 380px;
           margin: 0 auto;
+          cursor: pointer;
         }
-        
-.front-content {
-  width: 100%;
-  height: 100%;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* vertically center */
-  align-items: center;      /* horizontally center */
-  text-align: center;       /* optional: center text inside */
-}
-
-
-
-
 
         .flip-card-inner {
           position: relative;
@@ -679,17 +659,26 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
 
         .flip-card-front {
           background: white;
+          z-index: 2;
         }
 
-        /* Updated back side – orange background + very dark text */
         .flip-card-back {
-          background: linear-gradient(135deg, #f97316 0%, #c2410c 100%); /* rich orange gradient */
-          color: #0f0f0f;  /* almost black / very dark gray-black for high contrast */
+          background: linear-gradient(135deg, #f97316 0%, #c2410c 100%);
+          color: #0f0f0f;
           transform: rotateY(180deg);
+          z-index: 1;
           display: flex;
           align-items: center;
           justify-content: center;
           padding: 2rem 1.5rem;
+        }
+
+        .front-content {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
         }
 
         .back-content {
@@ -698,28 +687,25 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
           align-items: center;
           gap: 1.25rem;
           text-align: center;
+          width: 100%;
+          max-width: 90%;
         }
 
         .back-content strong {
-          color: #000000;   /* pure black for titles */
+          color: #000000;
           text-shadow: 0 1px 3px rgba(0,0,0,0.4);
         }
 
         .back-content p {
-          color: #111111;   /* very dark gray-black */
+          color: #111111;
         }
 
-        /* Touch devices: make tap toggle the flip */
-        @media (hover: none) {
-          .flip-card {
-            cursor: pointer;
-          }
-        }
-
-        /* Learn More button hover animation */
         .learn-more-btn {
+          z-index: 10;
+          position: relative;
           transition: all 0.25s ease;
           box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+          pointer-events: auto;
         }
 
         .learn-more-btn:hover {
@@ -729,8 +715,22 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
           color: #111 !important;
         }
 
-        .learn-more-btn:active {
-          transform: translateY(0) scale(0.98);
+        .badge {
+          background: rgba(255, 187, 102, 0.25);
+          color: #ffbb66;
+          padding: 0.35rem 0.9rem;
+          border-radius: 999px;
+          font-size: 0.8rem;
+          font-weight: 600;
+          backdrop-filter: blur(4px);
+          border: 1px solid rgba(255, 187, 102, 0.3);
+          z-index: 10;
+        }
+
+        @media (hover: none) {
+          .flip-card {
+            cursor: pointer;
+          }
         }
       </style>
 
@@ -738,7 +738,7 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
       <div class="flip-card" data-aos="flip-left" data-aos-delay="100" onclick="this.classList.toggle('flipped')">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <div class="front-content relative h-full w-full">
+            <div class="front-content">
               <div class="absolute inset-0">
                 <img 
                   src="https://i.ibb.co/SDDYxzgB/20260202-1232-Image-Generation-remix-01kgfszst8ej3vzc39qaq7wrrd-1.png" 
@@ -756,16 +756,17 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
               </div>
             </div>
           </div>
+
           <div class="flip-card-back">
             <div class="back-content">
               <strong class="text-3xl font-bold">House Cleaning</strong>
+              <a href="https://www.goldengrovecleaning.com/services/house-cleaning" 
+                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block hover:bg-[#ffbb88]">
+                Learn More
+              </a>
               <p class="text-base leading-relaxed opacity-90">
                 Professional house cleaning that leaves your home sparkling and fresh. Reliable, thorough, and tailored to your needs.
               </p>
-              <a href="https://www.goldengrovecleaning.com/services/house-cleaning" 
-                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block">
-                Learn More
-              </a>
             </div>
           </div>
         </div>
@@ -775,7 +776,7 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
       <div class="flip-card" data-aos="flip-left" data-aos-delay="180" onclick="this.classList.toggle('flipped')">
         <div class="flip-card-inner">
           <div class="flip-card-front">
-            <div class="front-content relative h-full w-full">
+            <div class="front-content">
               <div class="absolute inset-0">
                 <img 
                   src="https://i.ibb.co/xqRMCYg1/20260202-1259-Image-Generation-remix-01kgfvgvr1f9ws9jaj1qnv220r.png" 
@@ -787,37 +788,40 @@ document.querySelectorAll('.mobile-accordion button').forEach(button => {
               <small class="badge absolute top-4 left-4 z-10 bg-orange-500/90 text-white px-3 py-1 rounded-full text-sm font-semibold">Service</small>
               <div class="bg-black/60 backdrop-blur-md rounded-xl p-5 mt-auto shadow-lg relative z-10 mx-3 mb-4">
                 <div class="service-title flex items-center justify-between text-white text-xl font-bold">
-
                   <span>Deep Cleaning 🧸</span>
-                  </svg>
                 </div>
                 <p class="service-subtitle mt-1 text-orange-200 text-sm">Full Home • Premium</p>
               </div>
             </div>
           </div>
+
           <div class="flip-card-back">
             <div class="back-content">
               <strong class="text-3xl font-bold">Deep Cleaning</strong>
+              <a href="https://www.goldengrovecleaning.com/services/deep-cleaning" 
+                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block hover:bg-[#ffbb88]">
+                Learn More
+              </a>
               <p class="text-base leading-relaxed opacity-90">
                 Professional deep clean — removes tough dirt, allergens, grime & bacteria from every surface for a healthier space.
               </p>
-              <a href="https://www.goldengrovecleaning.com/services/deep-cleaning" 
-                 class="learn-more-btn px-10 py-4 bg-[#ff9966] text-[#151515] font-bold rounded-full text-base shadow-md inline-block">
-                Learn More
-              </a>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- The remaining cards (3–8) use exactly the same .flip-card-back style -->
-
-      <!-- Just copy-paste the pattern above for cards 3–8 -->
+      <!-- 
+        Add your other cards (3–8) here using THE SAME STRUCTURE as above.
+        Just change:
+        - image src
+        - title (House Cleaning → Whatever)
+        - link href
+        - description text
+      -->
 
     </div>
   </div>
 </section>
-
 
 
 
