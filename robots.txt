@@ -1,0 +1,29 @@
+# ============================================================================
+# ROBOTS.TXT - OPTIMIZED FOR MAXIMUM SEARCH ENGINE CRAWLABILITY & INDEXING
+# Golden Grove Cleaning Services - Statewide Texas Coverage
+# ============================================================================
+
+User-agent: *
+Allow: /
+Disallow: /*.ps1$
+Disallow: /*.py$
+Disallow: /*.exe$
+Disallow: /Template/
+
+# Googlebot & Googlebot-Image
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /assets/
+Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Sitemaps (Critical for search engine indexing)
+Sitemap: https://www.goldengrovecleaning.com/sitemap.xml
+Sitemap: https://www.goldengrovecleaning.com/sitemap_index.xml
+Sitemap: https://www.goldengrovecleaning.com/sitemap_midland_priority.xml
