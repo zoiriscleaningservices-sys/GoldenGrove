@@ -1,0 +1,26 @@
+{
+  "_comment": "Explicit indexation policy per route type. Read by lib/routes.mjs (meta robots, X-Robots-Tag) and the sitemap handlers. Change values here, not in templates.",
+  "priorityMarkets": ["midland-tx"],
+  "routeTypes": {
+    "home": { "index": true, "sitemap": true },
+    "core": { "index": true, "sitemap": true },
+    "service": { "index": true, "sitemap": true },
+    "cityHub": { "index": true, "sitemap": true },
+    "cityHubUnverified": {
+      "index": true,
+      "sitemap": false,
+      "_comment": "Hubs for places with no match in the 2023 Census Gazetteer (placeType 'unverified' in cities.json: unincorporated communities or neighborhoods). Live and crawlable, excluded from the sitemap until the place and service availability are verified."
+    },
+    "cityServicePriority": { "index": true, "sitemap": true },
+    "cityService": {
+      "index": true,
+      "sitemap": false,
+      "_comment": "Template-only pages (city name substituted into one shared template). Kept live and crawlable, excluded from the sitemap. Recommended next step after reviewing Search Console data: set index=false (noindex, follow) for pages with no impressions."
+    }
+  },
+  "nearby": {
+    "maxListed": 6,
+    "maxDistanceMiles": 50,
+    "minListed": 3
+  }
+}

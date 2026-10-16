@@ -1,0 +1,3004 @@
+{
+  "generated": "2026-10-16",
+  "total": 1476,
+  "matched": 1121,
+  "unmatched": [
+    {
+      "slug": "ace-tx",
+      "name": "Ace",
+      "county": "Polk"
+    },
+    {
+      "slug": "adkins-tx",
+      "name": "Adkins",
+      "county": "Bexar"
+    },
+    {
+      "slug": "afton-tx",
+      "name": "Afton",
+      "county": "Dickens"
+    },
+    {
+      "slug": "aiken-tx",
+      "name": "Aiken",
+      "county": "Floyd"
+    },
+    {
+      "slug": "alief-tx",
+      "name": "Alief",
+      "county": "Harris"
+    },
+    {
+      "slug": "alleyton-tx",
+      "name": "Alleyton",
+      "county": "Colorado"
+    },
+    {
+      "slug": "altair-tx",
+      "name": "Altair",
+      "county": "Colorado"
+    },
+    {
+      "slug": "apple-springs-tx",
+      "name": "Apple Springs",
+      "county": "Trinity"
+    },
+    {
+      "slug": "armstrong-tx",
+      "name": "Armstrong",
+      "county": "Kenedy"
+    },
+    {
+      "slug": "art-tx",
+      "name": "Art",
+      "county": "Mason"
+    },
+    {
+      "slug": "artesia-wells-tx",
+      "name": "Artesia Wells",
+      "county": "La Salle"
+    },
+    {
+      "slug": "arthur-city-tx",
+      "name": "Arthur City",
+      "county": "Lamar"
+    },
+    {
+      "slug": "atascosa-tx",
+      "name": "Atascosa",
+      "county": "Bexar"
+    },
+    {
+      "slug": "avalon-tx",
+      "name": "Avalon",
+      "county": "Ellis"
+    },
+    {
+      "slug": "avoca-tx",
+      "name": "Avoca",
+      "county": "Jones"
+    },
+    {
+      "slug": "axtell-tx",
+      "name": "Axtell",
+      "county": "Mclennan"
+    },
+    {
+      "slug": "bagwell-tx",
+      "name": "Bagwell",
+      "county": "Red River"
+    },
+    {
+      "slug": "barker-tx",
+      "name": "Barker",
+      "county": "Harris"
+    },
+    {
+      "slug": "barnhart-tx",
+      "name": "Barnhart",
+      "county": "Irion"
+    },
+    {
+      "slug": "batson-tx",
+      "name": "Batson",
+      "county": "Hardin"
+    },
+    {
+      "slug": "belmont-tx",
+      "name": "Belmont",
+      "county": "Gonzales"
+    },
+    {
+      "slug": "ben-franklin-tx",
+      "name": "Ben Franklin",
+      "county": "Delta"
+    },
+    {
+      "slug": "bend-tx",
+      "name": "Bend",
+      "county": "San Saba"
+    },
+    {
+      "slug": "berclair-tx",
+      "name": "Berclair",
+      "county": "Goliad"
+    },
+    {
+      "slug": "bergheim-tx",
+      "name": "Bergheim",
+      "county": "Kendall"
+    },
+    {
+      "slug": "big-bend-national-park-tx",
+      "name": "Big Bend National Park",
+      "county": "Brewster"
+    },
+    {
+      "slug": "bleiblerville-tx",
+      "name": "Bleiblerville",
+      "county": "Austin"
+    },
+    {
+      "slug": "bluegrove-tx",
+      "name": "Bluegrove",
+      "county": "Clay"
+    },
+    {
+      "slug": "bluffton-tx",
+      "name": "Bluffton",
+      "county": "Llano"
+    },
+    {
+      "slug": "bon-wier-tx",
+      "name": "Bon Wier",
+      "county": "Newton"
+    },
+    {
+      "slug": "brandon-tx",
+      "name": "Brandon",
+      "county": "Hill"
+    },
+    {
+      "slug": "brashear-tx",
+      "name": "Brashear",
+      "county": "Hopkins"
+    },
+    {
+      "slug": "briscoe-tx",
+      "name": "Briscoe",
+      "county": "Wheeler"
+    },
+    {
+      "slug": "bronson-tx",
+      "name": "Bronson",
+      "county": "Sabine"
+    },
+    {
+      "slug": "brookeland-tx",
+      "name": "Brookeland",
+      "county": "Jasper"
+    },
+    {
+      "slug": "brookesmith-tx",
+      "name": "Brookesmith",
+      "county": "Brown"
+    },
+    {
+      "slug": "bruceville-tx",
+      "name": "Bruceville",
+      "county": "Mclennan"
+    },
+    {
+      "slug": "bula-tx",
+      "name": "Bula",
+      "county": "Bailey"
+    },
+    {
+      "slug": "burkett-tx",
+      "name": "Burkett",
+      "county": "Coleman"
+    },
+    {
+      "slug": "burkeville-tx",
+      "name": "Burkeville",
+      "county": "Newton"
+    },
+    {
+      "slug": "caddo-tx",
+      "name": "Caddo",
+      "county": "Stephens"
+    },
+    {
+      "slug": "call-tx",
+      "name": "Call",
+      "county": "Newton"
+    },
+    {
+      "slug": "calliham-tx",
+      "name": "Calliham",
+      "county": "Mcmullen"
+    },
+    {
+      "slug": "camden-tx",
+      "name": "Camden",
+      "county": "Polk"
+    },
+    {
+      "slug": "campbellton-tx",
+      "name": "Campbellton",
+      "county": "Atascosa"
+    },
+    {
+      "slug": "cason-tx",
+      "name": "Cason",
+      "county": "Morris"
+    },
+    {
+      "slug": "castell-tx",
+      "name": "Castell",
+      "county": "Llano"
+    },
+    {
+      "slug": "cat-spring-tx",
+      "name": "Cat Spring",
+      "county": "Austin"
+    },
+    {
+      "slug": "cayuga-tx",
+      "name": "Cayuga",
+      "county": "Anderson"
+    },
+    {
+      "slug": "cedar-lane-tx",
+      "name": "Cedar Lane",
+      "county": "Matagorda"
+    },
+    {
+      "slug": "cee-vee-tx",
+      "name": "Cee Vee",
+      "county": "Cottle"
+    },
+    {
+      "slug": "centralia-tx",
+      "name": "Centralia",
+      "county": "Trinity"
+    },
+    {
+      "slug": "chapman-ranch-tx",
+      "name": "Chapman Ranch",
+      "county": "Nueces"
+    },
+    {
+      "slug": "chappell-hill-tx",
+      "name": "Chappell Hill",
+      "county": "Washington"
+    },
+    {
+      "slug": "chatfield-tx",
+      "name": "Chatfield",
+      "county": "Navarro"
+    },
+    {
+      "slug": "cherokee-tx",
+      "name": "Cherokee",
+      "county": "San Saba"
+    },
+    {
+      "slug": "chicota-tx",
+      "name": "Chicota",
+      "county": "Lamar"
+    },
+    {
+      "slug": "chriesman-tx",
+      "name": "Chriesman",
+      "county": "Burleson"
+    },
+    {
+      "slug": "clayton-tx",
+      "name": "Clayton",
+      "county": "Panola"
+    },
+    {
+      "slug": "collegeport-tx",
+      "name": "Collegeport",
+      "county": "Matagorda"
+    },
+    {
+      "slug": "comstock-tx",
+      "name": "Comstock",
+      "county": "Val Verde"
+    },
+    {
+      "slug": "concan-tx",
+      "name": "Concan",
+      "county": "Uvalde"
+    },
+    {
+      "slug": "concord-tx",
+      "name": "Concord",
+      "county": "Leon"
+    },
+    {
+      "slug": "cookville-tx",
+      "name": "Cookville",
+      "county": "Titus"
+    },
+    {
+      "slug": "copeville-tx",
+      "name": "Copeville",
+      "county": "Collin"
+    },
+    {
+      "slug": "cost-tx",
+      "name": "Cost",
+      "county": "Gonzales"
+    },
+    {
+      "slug": "cotton-center-tx",
+      "name": "Cotton Center",
+      "county": "Hale"
+    },
+    {
+      "slug": "crp-christi-tx",
+      "name": "Crp Christi",
+      "county": "Nueces"
+    },
+    {
+      "slug": "cunningham-tx",
+      "name": "Cunningham",
+      "county": "Lamar"
+    },
+    {
+      "slug": "cypress-tx",
+      "name": "Cypress",
+      "county": "Harris"
+    },
+    {
+      "slug": "d-hanis-tx",
+      "name": "D Hanis",
+      "county": "Medina"
+    },
+    {
+      "slug": "dale-tx",
+      "name": "Dale",
+      "county": "Caldwell"
+    },
+    {
+      "slug": "dallardsville-tx",
+      "name": "Dallardsville",
+      "county": "Polk"
+    },
+    {
+      "slug": "danciger-tx",
+      "name": "Danciger",
+      "county": "Brazoria"
+    },
+    {
+      "slug": "danevang-tx",
+      "name": "Danevang",
+      "county": "Wharton"
+    },
+    {
+      "slug": "davilla-tx",
+      "name": "Davilla",
+      "county": "Milam"
+    },
+    {
+      "slug": "dawn-tx",
+      "name": "Dawn",
+      "county": "Deaf Smith"
+    },
+    {
+      "slug": "de-berry-tx",
+      "name": "De Berry",
+      "county": "Panola"
+    },
+    {
+      "slug": "del-valle-tx",
+      "name": "Del Valle",
+      "county": "Travis"
+    },
+    {
+      "slug": "desdemona-tx",
+      "name": "Desdemona",
+      "county": "Eastland"
+    },
+    {
+      "slug": "diana-tx",
+      "name": "Diana",
+      "county": "Upshur"
+    },
+    {
+      "slug": "dike-tx",
+      "name": "Dike",
+      "county": "Hopkins"
+    },
+    {
+      "slug": "dinero-tx",
+      "name": "Dinero",
+      "county": "Live Oak"
+    },
+    {
+      "slug": "dobbin-tx",
+      "name": "Dobbin",
+      "county": "Montgomery"
+    },
+    {
+      "slug": "dodge-tx",
+      "name": "Dodge",
+      "county": "Walker"
+    },
+    {
+      "slug": "donie-tx",
+      "name": "Donie",
+      "county": "Freestone"
+    },
+    {
+      "slug": "doole-tx",
+      "name": "Doole",
+      "county": "Mcculloch"
+    },
+    {
+      "slug": "doss-tx",
+      "name": "Doss",
+      "county": "Gillespie"
+    },
+    {
+      "slug": "doucette-tx",
+      "name": "Doucette",
+      "county": "Tyler"
+    },
+    {
+      "slug": "dougherty-tx",
+      "name": "Dougherty",
+      "county": "Floyd"
+    },
+    {
+      "slug": "douglass-tx",
+      "name": "Douglass",
+      "county": "Nacogdoches"
+    },
+    {
+      "slug": "dryden-tx",
+      "name": "Dryden",
+      "county": "Terrell"
+    },
+    {
+      "slug": "dunn-tx",
+      "name": "Dunn",
+      "county": "Scurry"
+    },
+    {
+      "slug": "dyess-afb-tx",
+      "name": "Dyess Afb",
+      "county": "Taylor"
+    },
+    {
+      "slug": "ecleto-tx",
+      "name": "Ecleto",
+      "county": "Karnes"
+    },
+    {
+      "slug": "eddy-tx",
+      "name": "Eddy",
+      "county": "Mclennan"
+    },
+    {
+      "slug": "egypt-tx",
+      "name": "Egypt",
+      "county": "Wharton"
+    },
+    {
+      "slug": "elm-mott-tx",
+      "name": "Elm Mott",
+      "county": "Mclennan"
+    },
+    {
+      "slug": "elmaton-tx",
+      "name": "Elmaton",
+      "county": "Matagorda"
+    },
+    {
+      "slug": "elysian-fields-tx",
+      "name": "Elysian Fields",
+      "county": "Harrison"
+    },
+    {
+      "slug": "energy-tx",
+      "name": "Energy",
+      "county": "Comanche"
+    },
+    {
+      "slug": "enloe-tx",
+      "name": "Enloe",
+      "county": "Delta"
+    },
+    {
+      "slug": "enochs-tx",
+      "name": "Enochs",
+      "county": "Bailey"
+    },
+    {
+      "slug": "eola-tx",
+      "name": "Eola",
+      "county": "Concho"
+    },
+    {
+      "slug": "era-tx",
+      "name": "Era",
+      "county": "Cooke"
+    },
+    {
+      "slug": "etoile-tx",
+      "name": "Etoile",
+      "county": "Nacogdoches"
+    },
+    {
+      "slug": "fannin-tx",
+      "name": "Fannin",
+      "county": "Goliad"
+    },
+    {
+      "slug": "fentress-tx",
+      "name": "Fentress",
+      "county": "Caldwell"
+    },
+    {
+      "slug": "fieldton-tx",
+      "name": "Fieldton",
+      "county": "Lamb"
+    },
+    {
+      "slug": "fischer-tx",
+      "name": "Fischer",
+      "county": "Comal"
+    },
+    {
+      "slug": "flint-tx",
+      "name": "Flint",
+      "county": "Smith"
+    },
+    {
+      "slug": "flomot-tx",
+      "name": "Flomot",
+      "county": "Motley"
+    },
+    {
+      "slug": "flynn-tx",
+      "name": "Flynn",
+      "county": "Leon"
+    },
+    {
+      "slug": "forestburg-tx",
+      "name": "Forestburg",
+      "county": "Montague"
+    },
+    {
+      "slug": "forreston-tx",
+      "name": "Forreston",
+      "county": "Ellis"
+    },
+    {
+      "slug": "fort-mc-kavett-tx",
+      "name": "Fort Mc Kavett",
+      "county": "Menard"
+    },
+    {
+      "slug": "francitas-tx",
+      "name": "Francitas",
+      "county": "Jackson"
+    },
+    {
+      "slug": "fred-tx",
+      "name": "Fred",
+      "county": "Tyler"
+    },
+    {
+      "slug": "fredonia-tx",
+      "name": "Fredonia",
+      "county": "Mason"
+    },
+    {
+      "slug": "gary-tx",
+      "name": "Gary",
+      "county": "Panola"
+    },
+    {
+      "slug": "gilchrist-tx",
+      "name": "Gilchrist",
+      "county": "Galveston"
+    },
+    {
+      "slug": "gillett-tx",
+      "name": "Gillett",
+      "county": "Karnes"
+    },
+    {
+      "slug": "girvin-tx",
+      "name": "Girvin",
+      "county": "Pecos"
+    },
+    {
+      "slug": "glen-flora-tx",
+      "name": "Glen Flora",
+      "county": "Wharton"
+    },
+    {
+      "slug": "gober-tx",
+      "name": "Gober",
+      "county": "Fannin"
+    },
+    {
+      "slug": "golden-tx",
+      "name": "Golden",
+      "county": "Wood"
+    },
+    {
+      "slug": "goldsboro-tx",
+      "name": "Goldsboro",
+      "county": "Coleman"
+    },
+    {
+      "slug": "goodfellow-afb-tx",
+      "name": "Goodfellow Afb",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "gordonville-tx",
+      "name": "Gordonville",
+      "county": "Grayson"
+    },
+    {
+      "slug": "gouldbusk-tx",
+      "name": "Gouldbusk",
+      "county": "Coleman"
+    },
+    {
+      "slug": "greenwood-tx",
+      "name": "Greenwood",
+      "county": "Wise"
+    },
+    {
+      "slug": "grulla-tx",
+      "name": "Grulla",
+      "county": "Starr"
+    },
+    {
+      "slug": "guy-tx",
+      "name": "Guy",
+      "county": "Fort Bend"
+    },
+    {
+      "slug": "hankamer-tx",
+      "name": "Hankamer",
+      "county": "Chambers"
+    },
+    {
+      "slug": "harleton-tx",
+      "name": "Harleton",
+      "county": "Harrison"
+    },
+    {
+      "slug": "heidenheimer-tx",
+      "name": "Heidenheimer",
+      "county": "Bell"
+    },
+    {
+      "slug": "hext-tx",
+      "name": "Hext",
+      "county": "Menard"
+    },
+    {
+      "slug": "high-island-tx",
+      "name": "High Island",
+      "county": "Galveston"
+    },
+    {
+      "slug": "hillister-tx",
+      "name": "Hillister",
+      "county": "Tyler"
+    },
+    {
+      "slug": "hobson-tx",
+      "name": "Hobson",
+      "county": "Karnes"
+    },
+    {
+      "slug": "hochheim-tx",
+      "name": "Hochheim",
+      "county": "De Witt"
+    },
+    {
+      "slug": "hockley-tx",
+      "name": "Hockley",
+      "county": "Harris"
+    },
+    {
+      "slug": "huffman-tx",
+      "name": "Huffman",
+      "county": "Harris"
+    },
+    {
+      "slug": "hufsmith-tx",
+      "name": "Hufsmith",
+      "county": "Harris"
+    },
+    {
+      "slug": "hunt-tx",
+      "name": "Hunt",
+      "county": "Kerr"
+    },
+    {
+      "slug": "hye-tx",
+      "name": "Hye",
+      "county": "Blanco"
+    },
+    {
+      "slug": "ira-tx",
+      "name": "Ira",
+      "county": "Scurry"
+    },
+    {
+      "slug": "irene-tx",
+      "name": "Irene",
+      "county": "Hill"
+    },
+    {
+      "slug": "ivanhoe-tx",
+      "name": "Ivanhoe",
+      "county": "Fannin",
+      "note": "same-name Census place Ivanhoe city is 231 mi away in another county"
+    },
+    {
+      "slug": "jermyn-tx",
+      "name": "Jermyn",
+      "county": "Jack"
+    },
+    {
+      "slug": "joinerville-tx",
+      "name": "Joinerville",
+      "county": "Rusk"
+    },
+    {
+      "slug": "jonesboro-tx",
+      "name": "Jonesboro",
+      "county": "Coryell"
+    },
+    {
+      "slug": "jonesville-tx",
+      "name": "Jonesville",
+      "county": "Harrison"
+    },
+    {
+      "slug": "judson-tx",
+      "name": "Judson",
+      "county": "Gregg"
+    },
+    {
+      "slug": "justiceburg-tx",
+      "name": "Justiceburg",
+      "county": "Garza"
+    },
+    {
+      "slug": "kamay-tx",
+      "name": "Kamay",
+      "county": "Wichita"
+    },
+    {
+      "slug": "karnack-tx",
+      "name": "Karnack",
+      "county": "Harrison"
+    },
+    {
+      "slug": "kendalia-tx",
+      "name": "Kendalia",
+      "county": "Kendall"
+    },
+    {
+      "slug": "kenney-tx",
+      "name": "Kenney",
+      "county": "Austin"
+    },
+    {
+      "slug": "kerrick-tx",
+      "name": "Kerrick",
+      "county": "Dallam"
+    },
+    {
+      "slug": "kildare-tx",
+      "name": "Kildare",
+      "county": "Cass"
+    },
+    {
+      "slug": "kingwood-tx",
+      "name": "Kingwood",
+      "county": "Harris"
+    },
+    {
+      "slug": "klondike-tx",
+      "name": "Klondike",
+      "county": "Delta"
+    },
+    {
+      "slug": "knickerbocker-tx",
+      "name": "Knickerbocker",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "knott-tx",
+      "name": "Knott",
+      "county": "Howard"
+    },
+    {
+      "slug": "la-coste-tx",
+      "name": "La Coste",
+      "county": "Medina"
+    },
+    {
+      "slug": "la-salle-tx",
+      "name": "La Salle",
+      "county": "Jackson"
+    },
+    {
+      "slug": "laird-hill-tx",
+      "name": "Laird Hill",
+      "county": "Rusk"
+    },
+    {
+      "slug": "lake-creek-tx",
+      "name": "Lake Creek",
+      "county": "Delta"
+    },
+    {
+      "slug": "lane-city-tx",
+      "name": "Lane City",
+      "county": "Wharton"
+    },
+    {
+      "slug": "laneville-tx",
+      "name": "Laneville",
+      "county": "Rusk"
+    },
+    {
+      "slug": "langtry-tx",
+      "name": "Langtry",
+      "county": "Val Verde"
+    },
+    {
+      "slug": "larue-tx",
+      "name": "Larue",
+      "county": "Henderson"
+    },
+    {
+      "slug": "laughlin-a-f-b-tx",
+      "name": "Laughlin A F B",
+      "county": "Val Verde"
+    },
+    {
+      "slug": "lazbuddie-tx",
+      "name": "Lazbuddie",
+      "county": "Parmer"
+    },
+    {
+      "slug": "ledbetter-tx",
+      "name": "Ledbetter",
+      "county": "Fayette"
+    },
+    {
+      "slug": "leesburg-tx",
+      "name": "Leesburg",
+      "county": "Camp"
+    },
+    {
+      "slug": "leesville-tx",
+      "name": "Leesville",
+      "county": "Gonzales"
+    },
+    {
+      "slug": "leggett-tx",
+      "name": "Leggett",
+      "county": "Polk"
+    },
+    {
+      "slug": "lenorah-tx",
+      "name": "Lenorah",
+      "county": "Martin"
+    },
+    {
+      "slug": "lillian-tx",
+      "name": "Lillian",
+      "county": "Johnson"
+    },
+    {
+      "slug": "lincoln-tx",
+      "name": "Lincoln",
+      "county": "Lee"
+    },
+    {
+      "slug": "lissie-tx",
+      "name": "Lissie",
+      "county": "Wharton"
+    },
+    {
+      "slug": "little-river-academy-tx",
+      "name": "Little River Academy",
+      "county": "Bell"
+    },
+    {
+      "slug": "lodi-tx",
+      "name": "Lodi",
+      "county": "Marion"
+    },
+    {
+      "slug": "lohn-tx",
+      "name": "Lohn",
+      "county": "Mcculloch"
+    },
+    {
+      "slug": "london-tx",
+      "name": "London",
+      "county": "Kimble"
+    },
+    {
+      "slug": "long-branch-tx",
+      "name": "Long Branch",
+      "county": "Panola"
+    },
+    {
+      "slug": "lopeno-tx",
+      "name": "Lopeno",
+      "county": "Zapata"
+    },
+    {
+      "slug": "lowake-tx",
+      "name": "Lowake",
+      "county": "Concho"
+    },
+    {
+      "slug": "maple-tx",
+      "name": "Maple",
+      "county": "Bailey"
+    },
+    {
+      "slug": "martinsville-tx",
+      "name": "Martinsville",
+      "county": "Nacogdoches"
+    },
+    {
+      "slug": "maryneal-tx",
+      "name": "Maryneal",
+      "county": "Nolan"
+    },
+    {
+      "slug": "masterson-tx",
+      "name": "Masterson",
+      "county": "Moore"
+    },
+    {
+      "slug": "maxwell-tx",
+      "name": "Maxwell",
+      "county": "Caldwell"
+    },
+    {
+      "slug": "maydelle-tx",
+      "name": "Maydelle",
+      "county": "Cherokee"
+    },
+    {
+      "slug": "mc-camey-tx",
+      "name": "Mc Camey",
+      "county": "Upton"
+    },
+    {
+      "slug": "mc-caulley-tx",
+      "name": "Mc Caulley",
+      "county": "Fisher"
+    },
+    {
+      "slug": "mc-dade-tx",
+      "name": "Mc Dade",
+      "county": "Bastrop"
+    },
+    {
+      "slug": "mc-gregor-tx",
+      "name": "Mc Gregor",
+      "county": "Mclennan"
+    },
+    {
+      "slug": "mc-leod-tx",
+      "name": "Mc Leod",
+      "county": "Cass"
+    },
+    {
+      "slug": "mc-neil-tx",
+      "name": "Mc Neil",
+      "county": "Travis"
+    },
+    {
+      "slug": "mc-queeney-tx",
+      "name": "Mc Queeney",
+      "county": "Guadalupe"
+    },
+    {
+      "slug": "mcadoo-tx",
+      "name": "Mcadoo",
+      "county": "Dickens"
+    },
+    {
+      "slug": "mcfaddin-tx",
+      "name": "Mcfaddin",
+      "county": "Victoria"
+    },
+    {
+      "slug": "medina-tx",
+      "name": "Medina",
+      "county": "Bandera",
+      "note": "same-name Census place Medina CDP is 197 mi away in another county"
+    },
+    {
+      "slug": "mereta-tx",
+      "name": "Mereta",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "merit-tx",
+      "name": "Merit",
+      "county": "Hunt"
+    },
+    {
+      "slug": "meyersville-tx",
+      "name": "Meyersville",
+      "county": "De Witt"
+    },
+    {
+      "slug": "mico-tx",
+      "name": "Mico",
+      "county": "Medina"
+    },
+    {
+      "slug": "midkiff-tx",
+      "name": "Midkiff",
+      "county": "Upton"
+    },
+    {
+      "slug": "millersview-tx",
+      "name": "Millersview",
+      "county": "Concho"
+    },
+    {
+      "slug": "millican-tx",
+      "name": "Millican",
+      "county": "Brazos"
+    },
+    {
+      "slug": "minden-tx",
+      "name": "Minden",
+      "county": "Rusk"
+    },
+    {
+      "slug": "mineral-tx",
+      "name": "Mineral",
+      "county": "Bee"
+    },
+    {
+      "slug": "montalba-tx",
+      "name": "Montalba",
+      "county": "Anderson"
+    },
+    {
+      "slug": "morgan-mill-tx",
+      "name": "Morgan Mill",
+      "county": "Erath"
+    },
+    {
+      "slug": "moscow-tx",
+      "name": "Moscow",
+      "county": "Polk"
+    },
+    {
+      "slug": "mountain-home-tx",
+      "name": "Mountain Home",
+      "county": "Kerr"
+    },
+    {
+      "slug": "muldoon-tx",
+      "name": "Muldoon",
+      "county": "Fayette"
+    },
+    {
+      "slug": "mumford-tx",
+      "name": "Mumford",
+      "county": "Robertson"
+    },
+    {
+      "slug": "naval-air-station-jrb-tx",
+      "name": "Naval Air Station Jrb",
+      "county": "Texas"
+    },
+    {
+      "slug": "nemo-tx",
+      "name": "Nemo",
+      "county": "Somervell"
+    },
+    {
+      "slug": "new-baden-tx",
+      "name": "New Baden",
+      "county": "Robertson"
+    },
+    {
+      "slug": "new-caney-tx",
+      "name": "New Caney",
+      "county": "Montgomery"
+    },
+    {
+      "slug": "nolan-tx",
+      "name": "Nolan",
+      "county": "Nolan"
+    },
+    {
+      "slug": "north-houston-tx",
+      "name": "North Houston",
+      "county": "Harris"
+    },
+    {
+      "slug": "north-zulch-tx",
+      "name": "North Zulch",
+      "county": "Madison"
+    },
+    {
+      "slug": "norton-tx",
+      "name": "Norton",
+      "county": "Runnels"
+    },
+    {
+      "slug": "notrees-tx",
+      "name": "Notrees",
+      "county": "Ector"
+    },
+    {
+      "slug": "nursery-tx",
+      "name": "Nursery",
+      "county": "Victoria"
+    },
+    {
+      "slug": "o-brien-tx",
+      "name": "O Brien",
+      "county": "Haskell"
+    },
+    {
+      "slug": "oakland-tx",
+      "name": "Oakland",
+      "county": "Colorado"
+    },
+    {
+      "slug": "oakville-tx",
+      "name": "Oakville",
+      "county": "Live Oak"
+    },
+    {
+      "slug": "odell-tx",
+      "name": "Odell",
+      "county": "Wilbarger"
+    },
+    {
+      "slug": "odonnell-tx",
+      "name": "Odonnell",
+      "county": "Lynn"
+    },
+    {
+      "slug": "old-glory-tx",
+      "name": "Old Glory",
+      "county": "Stonewall"
+    },
+    {
+      "slug": "old-ocean-tx",
+      "name": "Old Ocean",
+      "county": "Brazoria"
+    },
+    {
+      "slug": "olden-tx",
+      "name": "Olden",
+      "county": "Eastland"
+    },
+    {
+      "slug": "orangefield-tx",
+      "name": "Orangefield",
+      "county": "Orange"
+    },
+    {
+      "slug": "orla-tx",
+      "name": "Orla",
+      "county": "Reeves"
+    },
+    {
+      "slug": "ottine-tx",
+      "name": "Ottine",
+      "county": "Gonzales"
+    },
+    {
+      "slug": "ovalo-tx",
+      "name": "Ovalo",
+      "county": "Taylor"
+    },
+    {
+      "slug": "paluxy-tx",
+      "name": "Paluxy",
+      "county": "Hood"
+    },
+    {
+      "slug": "pandora-tx",
+      "name": "Pandora",
+      "county": "Wilson"
+    },
+    {
+      "slug": "panna-maria-tx",
+      "name": "Panna Maria",
+      "county": "Karnes"
+    },
+    {
+      "slug": "panola-tx",
+      "name": "Panola",
+      "county": "Panola"
+    },
+    {
+      "slug": "pattonville-tx",
+      "name": "Pattonville",
+      "county": "Lamar"
+    },
+    {
+      "slug": "pecos-tx",
+      "name": "Pecos",
+      "county": "Reeves"
+    },
+    {
+      "slug": "peggy-tx",
+      "name": "Peggy",
+      "county": "Atascosa"
+    },
+    {
+      "slug": "pennington-tx",
+      "name": "Pennington",
+      "county": "Trinity"
+    },
+    {
+      "slug": "penwell-tx",
+      "name": "Penwell",
+      "county": "Ector"
+    },
+    {
+      "slug": "pep-tx",
+      "name": "Pep",
+      "county": "Hockley"
+    },
+    {
+      "slug": "pickton-tx",
+      "name": "Pickton",
+      "county": "Hopkins"
+    },
+    {
+      "slug": "pierce-tx",
+      "name": "Pierce",
+      "county": "Wharton"
+    },
+    {
+      "slug": "pledger-tx",
+      "name": "Pledger",
+      "county": "Matagorda"
+    },
+    {
+      "slug": "pointblank-tx",
+      "name": "Pointblank",
+      "county": "San Jacinto"
+    },
+    {
+      "slug": "pollok-tx",
+      "name": "Pollok",
+      "county": "Angelina"
+    },
+    {
+      "slug": "pontotoc-tx",
+      "name": "Pontotoc",
+      "county": "Mason"
+    },
+    {
+      "slug": "poolville-tx",
+      "name": "Poolville",
+      "county": "Parker"
+    },
+    {
+      "slug": "port-bolivar-tx",
+      "name": "Port Bolivar",
+      "county": "Galveston"
+    },
+    {
+      "slug": "port-o-connor-tx",
+      "name": "Port O Connor",
+      "county": "Calhoun"
+    },
+    {
+      "slug": "porter-tx",
+      "name": "Porter",
+      "county": "Montgomery"
+    },
+    {
+      "slug": "pottsville-tx",
+      "name": "Pottsville",
+      "county": "Hamilton"
+    },
+    {
+      "slug": "prairie-hill-tx",
+      "name": "Prairie Hill",
+      "county": "Limestone"
+    },
+    {
+      "slug": "prairie-lea-tx",
+      "name": "Prairie Lea",
+      "county": "Caldwell"
+    },
+    {
+      "slug": "price-tx",
+      "name": "Price",
+      "county": "Rusk"
+    },
+    {
+      "slug": "purdon-tx",
+      "name": "Purdon",
+      "county": "Navarro"
+    },
+    {
+      "slug": "purmela-tx",
+      "name": "Purmela",
+      "county": "Coryell"
+    },
+    {
+      "slug": "rainbow-tx",
+      "name": "Rainbow",
+      "county": "Somervell"
+    },
+    {
+      "slug": "randolph-tx",
+      "name": "Randolph",
+      "county": "Fannin"
+    },
+    {
+      "slug": "ratcliff-tx",
+      "name": "Ratcliff",
+      "county": "Houston"
+    },
+    {
+      "slug": "raywood-tx",
+      "name": "Raywood",
+      "county": "Liberty"
+    },
+    {
+      "slug": "reagan-tx",
+      "name": "Reagan",
+      "county": "Falls"
+    },
+    {
+      "slug": "rio-frio-tx",
+      "name": "Rio Frio",
+      "county": "Real"
+    },
+    {
+      "slug": "rio-medina-tx",
+      "name": "Rio Medina",
+      "county": "Medina"
+    },
+    {
+      "slug": "roans-prairie-tx",
+      "name": "Roans Prairie",
+      "county": "Grimes"
+    },
+    {
+      "slug": "rockwood-tx",
+      "name": "Rockwood",
+      "county": "Coleman"
+    },
+    {
+      "slug": "romayor-tx",
+      "name": "Romayor",
+      "county": "Liberty"
+    },
+    {
+      "slug": "roosevelt-tx",
+      "name": "Roosevelt",
+      "county": "Kimble"
+    },
+    {
+      "slug": "rosston-tx",
+      "name": "Rosston",
+      "county": "Cooke"
+    },
+    {
+      "slug": "rye-tx",
+      "name": "Rye",
+      "county": "Liberty"
+    },
+    {
+      "slug": "sabine-pass-tx",
+      "name": "Sabine Pass",
+      "county": "Jefferson"
+    },
+    {
+      "slug": "sacul-tx",
+      "name": "Sacul",
+      "county": "Nacogdoches"
+    },
+    {
+      "slug": "saint-hedwig-tx",
+      "name": "Saint Hedwig",
+      "county": "Bexar"
+    },
+    {
+      "slug": "saint-jo-tx",
+      "name": "Saint Jo",
+      "county": "Montague"
+    },
+    {
+      "slug": "salineno-tx",
+      "name": "Salineno",
+      "county": "Starr"
+    },
+    {
+      "slug": "salt-flat-tx",
+      "name": "Salt Flat",
+      "county": "Hudspeth"
+    },
+    {
+      "slug": "saltillo-tx",
+      "name": "Saltillo",
+      "county": "Hopkins"
+    },
+    {
+      "slug": "sam-norwood-tx",
+      "name": "Sam Norwood",
+      "county": "Collingsworth"
+    },
+    {
+      "slug": "santa-elena-tx",
+      "name": "Santa Elena",
+      "county": "Starr"
+    },
+    {
+      "slug": "saragosa-tx",
+      "name": "Saragosa",
+      "county": "Reeves"
+    },
+    {
+      "slug": "saratoga-tx",
+      "name": "Saratoga",
+      "county": "Hardin"
+    },
+    {
+      "slug": "satin-tx",
+      "name": "Satin",
+      "county": "Falls"
+    },
+    {
+      "slug": "schwertner-tx",
+      "name": "Schwertner",
+      "county": "Williamson"
+    },
+    {
+      "slug": "scroggins-tx",
+      "name": "Scroggins",
+      "county": "Franklin"
+    },
+    {
+      "slug": "selman-city-tx",
+      "name": "Selman City",
+      "county": "Rusk"
+    },
+    {
+      "slug": "sheppard-afb-tx",
+      "name": "Sheppard Afb",
+      "county": "Wichita"
+    },
+    {
+      "slug": "sidney-tx",
+      "name": "Sidney",
+      "county": "Comanche"
+    },
+    {
+      "slug": "silver-tx",
+      "name": "Silver",
+      "county": "Coke"
+    },
+    {
+      "slug": "simms-tx",
+      "name": "Simms",
+      "county": "Bowie"
+    },
+    {
+      "slug": "slidell-tx",
+      "name": "Slidell",
+      "county": "Wise"
+    },
+    {
+      "slug": "south-bend-tx",
+      "name": "South Bend",
+      "county": "Young"
+    },
+    {
+      "slug": "south-plains-tx",
+      "name": "South Plains",
+      "county": "Floyd"
+    },
+    {
+      "slug": "spicewood-tx",
+      "name": "Spicewood",
+      "county": "Travis"
+    },
+    {
+      "slug": "spurger-tx",
+      "name": "Spurger",
+      "county": "Tyler"
+    },
+    {
+      "slug": "star-tx",
+      "name": "Star",
+      "county": "Mills"
+    },
+    {
+      "slug": "sublime-tx",
+      "name": "Sublime",
+      "county": "Lavaca"
+    },
+    {
+      "slug": "sulphur-bluff-tx",
+      "name": "Sulphur Bluff",
+      "county": "Hopkins"
+    },
+    {
+      "slug": "sumner-tx",
+      "name": "Sumner",
+      "county": "Lamar"
+    },
+    {
+      "slug": "sutherland-springs-tx",
+      "name": "Sutherland Springs",
+      "county": "Wilson"
+    },
+    {
+      "slug": "sweet-home-tx",
+      "name": "Sweet Home",
+      "county": "Lavaca"
+    },
+    {
+      "slug": "talpa-tx",
+      "name": "Talpa",
+      "county": "Coleman"
+    },
+    {
+      "slug": "tarpley-tx",
+      "name": "Tarpley",
+      "county": "Bandera"
+    },
+    {
+      "slug": "tarzan-tx",
+      "name": "Tarzan",
+      "county": "Martin"
+    },
+    {
+      "slug": "telegraph-tx",
+      "name": "Telegraph",
+      "county": "Edwards"
+    },
+    {
+      "slug": "telephone-tx",
+      "name": "Telephone",
+      "county": "Fannin"
+    },
+    {
+      "slug": "telferner-tx",
+      "name": "Telferner",
+      "county": "Victoria"
+    },
+    {
+      "slug": "tell-tx",
+      "name": "Tell",
+      "county": "Childress"
+    },
+    {
+      "slug": "tennessee-colony-tx",
+      "name": "Tennessee Colony",
+      "county": "Anderson"
+    },
+    {
+      "slug": "tennyson-tx",
+      "name": "Tennyson",
+      "county": "Coke"
+    },
+    {
+      "slug": "thicket-tx",
+      "name": "Thicket",
+      "county": "Hardin"
+    },
+    {
+      "slug": "thomaston-tx",
+      "name": "Thomaston",
+      "county": "De Witt"
+    },
+    {
+      "slug": "tokio-tx",
+      "name": "Tokio",
+      "county": "Yoakum"
+    },
+    {
+      "slug": "toyahvale-tx",
+      "name": "Toyahvale",
+      "county": "Reeves"
+    },
+    {
+      "slug": "valley-spring-tx",
+      "name": "Valley Spring",
+      "county": "Llano"
+    },
+    {
+      "slug": "vancourt-tx",
+      "name": "Vancourt",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "vanderpool-tx",
+      "name": "Vanderpool",
+      "county": "Bandera"
+    },
+    {
+      "slug": "veribest-tx",
+      "name": "Veribest",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "village-mills-tx",
+      "name": "Village Mills",
+      "county": "Hardin"
+    },
+    {
+      "slug": "voca-tx",
+      "name": "Voca",
+      "county": "Mcculloch"
+    },
+    {
+      "slug": "voss-tx",
+      "name": "Voss",
+      "county": "Coleman"
+    },
+    {
+      "slug": "votaw-tx",
+      "name": "Votaw",
+      "county": "Hardin"
+    },
+    {
+      "slug": "walburg-tx",
+      "name": "Walburg",
+      "county": "Williamson"
+    },
+    {
+      "slug": "wall-tx",
+      "name": "Wall",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "wallisville-tx",
+      "name": "Wallisville",
+      "county": "Chambers"
+    },
+    {
+      "slug": "warda-tx",
+      "name": "Warda",
+      "county": "Fayette"
+    },
+    {
+      "slug": "waring-tx",
+      "name": "Waring",
+      "county": "Kendall"
+    },
+    {
+      "slug": "warrenton-tx",
+      "name": "Warrenton",
+      "county": "Fayette"
+    },
+    {
+      "slug": "washington-tx",
+      "name": "Washington",
+      "county": "Washington"
+    },
+    {
+      "slug": "water-valley-tx",
+      "name": "Water Valley",
+      "county": "Tom Green"
+    },
+    {
+      "slug": "wayside-tx",
+      "name": "Wayside",
+      "county": "Armstrong"
+    },
+    {
+      "slug": "weesatche-tx",
+      "name": "Weesatche",
+      "county": "Goliad"
+    },
+    {
+      "slug": "wellborn-tx",
+      "name": "Wellborn",
+      "county": "Brazos"
+    },
+    {
+      "slug": "west-point-tx",
+      "name": "West Point",
+      "county": "Fayette"
+    },
+    {
+      "slug": "westhoff-tx",
+      "name": "Westhoff",
+      "county": "De Witt"
+    },
+    {
+      "slug": "wheelock-tx",
+      "name": "Wheelock",
+      "county": "Robertson"
+    },
+    {
+      "slug": "whitsett-tx",
+      "name": "Whitsett",
+      "county": "Live Oak"
+    },
+    {
+      "slug": "whitt-tx",
+      "name": "Whitt",
+      "county": "Parker"
+    },
+    {
+      "slug": "wiergate-tx",
+      "name": "Wiergate",
+      "county": "Newton"
+    },
+    {
+      "slug": "willow-city-tx",
+      "name": "Willow City",
+      "county": "Gillespie"
+    },
+    {
+      "slug": "woden-tx",
+      "name": "Woden",
+      "county": "Nacogdoches"
+    },
+    {
+      "slug": "woodlake-tx",
+      "name": "Woodlake",
+      "county": "Trinity"
+    },
+    {
+      "slug": "woodlawn-tx",
+      "name": "Woodlawn",
+      "county": "Harrison"
+    },
+    {
+      "slug": "wrightsboro-tx",
+      "name": "Wrightsboro",
+      "county": "Gonzales"
+    }
+  ],
+  "coordinateFixes": [],
+  "countyFixes": [],
+  "multiCounty": [
+    {
+      "slug": "abernathy-tx",
+      "county": "Hale",
+      "primary": "Lubbock",
+      "counties": [
+        "Hale",
+        "Lubbock"
+      ]
+    },
+    {
+      "slug": "abilene-tx",
+      "county": "Taylor",
+      "primary": "Taylor",
+      "counties": [
+        "Jones",
+        "Taylor"
+      ]
+    },
+    {
+      "slug": "ackerly-tx",
+      "county": "Martin",
+      "primary": "Martin",
+      "counties": [
+        "Dawson",
+        "Martin"
+      ]
+    },
+    {
+      "slug": "alba-tx",
+      "county": "Wood",
+      "primary": "Wood",
+      "counties": [
+        "Rains",
+        "Wood"
+      ]
+    },
+    {
+      "slug": "amarillo-tx",
+      "county": "Potter",
+      "primary": "Potter",
+      "counties": [
+        "Potter",
+        "Randall"
+      ]
+    },
+    {
+      "slug": "aransas-pass-tx",
+      "county": "San Patricio",
+      "primary": "Nueces",
+      "counties": [
+        "Aransas",
+        "Nueces",
+        "San Patricio"
+      ]
+    },
+    {
+      "slug": "austin-tx",
+      "county": "Travis",
+      "primary": "Travis",
+      "counties": [
+        "Bastrop",
+        "Hays",
+        "Travis",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "azle-tx",
+      "county": "Parker",
+      "primary": "Tarrant",
+      "counties": [
+        "Parker",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "bartlett-tx",
+      "county": "Bell",
+      "primary": "Williamson",
+      "counties": [
+        "Bell",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "baytown-tx",
+      "county": "Harris",
+      "primary": "Harris",
+      "counties": [
+        "Chambers",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "blackwell-tx",
+      "county": "Nolan",
+      "primary": "Nolan",
+      "counties": [
+        "Coke",
+        "Nolan"
+      ]
+    },
+    {
+      "slug": "booker-tx",
+      "county": "Lipscomb",
+      "primary": "Lipscomb",
+      "counties": [
+        "Lipscomb",
+        "Ochiltree"
+      ]
+    },
+    {
+      "slug": "bullard-tx",
+      "county": "Smith",
+      "primary": "Smith",
+      "counties": [
+        "Cherokee",
+        "Smith"
+      ]
+    },
+    {
+      "slug": "burleson-tx",
+      "county": "Johnson",
+      "primary": "Johnson",
+      "counties": [
+        "Johnson",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "bushland-tx",
+      "county": "Potter",
+      "primary": "Potter",
+      "counties": [
+        "Potter",
+        "Randall"
+      ]
+    },
+    {
+      "slug": "carrollton-tx",
+      "county": "Dallas",
+      "primary": "Denton",
+      "counties": [
+        "Collin",
+        "Dallas",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "cedar-hill-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Ellis"
+      ]
+    },
+    {
+      "slug": "cedar-park-tx",
+      "county": "Williamson",
+      "primary": "Williamson",
+      "counties": [
+        "Travis",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "celina-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "cibolo-tx",
+      "county": "Guadalupe",
+      "primary": "Guadalupe",
+      "counties": [
+        "Bexar",
+        "Guadalupe"
+      ]
+    },
+    {
+      "slug": "cleveland-tx",
+      "county": "Liberty",
+      "primary": "Liberty",
+      "counties": [
+        "Liberty",
+        "Montgomery",
+        "San Jacinto"
+      ]
+    },
+    {
+      "slug": "coppell-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "copperas-cove-tx",
+      "county": "Coryell",
+      "primary": "Coryell",
+      "counties": [
+        "Bell",
+        "Coryell",
+        "Lampasas"
+      ]
+    },
+    {
+      "slug": "corpus-christi-tx",
+      "county": "Nueces",
+      "primary": "Nueces",
+      "counties": [
+        "Aransas",
+        "Kleberg",
+        "Nueces",
+        "San Patricio"
+      ]
+    },
+    {
+      "slug": "cresson-tx",
+      "county": "Johnson",
+      "primary": "Johnson",
+      "counties": [
+        "Hood",
+        "Johnson",
+        "Parker"
+      ]
+    },
+    {
+      "slug": "crowley-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Johnson",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "dalhart-tx",
+      "county": "Dallam",
+      "primary": "Dallam",
+      "counties": [
+        "Dallam",
+        "Hartley"
+      ]
+    },
+    {
+      "slug": "dallas-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Collin",
+        "Dallas",
+        "Denton",
+        "Kaufman",
+        "Rockwall"
+      ]
+    },
+    {
+      "slug": "denver-city-tx",
+      "county": "Yoakum",
+      "primary": "Yoakum",
+      "counties": [
+        "Gaines",
+        "Yoakum"
+      ]
+    },
+    {
+      "slug": "deport-tx",
+      "county": "Lamar",
+      "primary": "Lamar",
+      "counties": [
+        "Lamar",
+        "Red River"
+      ]
+    },
+    {
+      "slug": "easton-tx",
+      "county": "Gregg",
+      "primary": "Gregg",
+      "counties": [
+        "Gregg",
+        "Rusk"
+      ]
+    },
+    {
+      "slug": "elgin-tx",
+      "county": "Bastrop",
+      "primary": "Bastrop",
+      "counties": [
+        "Bastrop",
+        "Travis"
+      ]
+    },
+    {
+      "slug": "elmendorf-tx",
+      "county": "Bexar",
+      "primary": "Bexar",
+      "counties": [
+        "Bexar",
+        "Wilson"
+      ]
+    },
+    {
+      "slug": "evant-tx",
+      "county": "Coryell",
+      "primary": "Coryell",
+      "counties": [
+        "Coryell",
+        "Hamilton"
+      ]
+    },
+    {
+      "slug": "ferris-tx",
+      "county": "Ellis",
+      "primary": "Ellis",
+      "counties": [
+        "Dallas",
+        "Ellis"
+      ]
+    },
+    {
+      "slug": "flower-mound-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "fort-worth-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Denton",
+        "Johnson",
+        "Parker",
+        "Tarrant",
+        "Wise"
+      ]
+    },
+    {
+      "slug": "frankston-tx",
+      "county": "Anderson",
+      "primary": "Anderson",
+      "counties": [
+        "Anderson",
+        "Henderson"
+      ]
+    },
+    {
+      "slug": "friendswood-tx",
+      "county": "Galveston",
+      "primary": "Galveston",
+      "counties": [
+        "Galveston",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "frisco-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "fritch-tx",
+      "county": "Hutchinson",
+      "primary": "Hutchinson",
+      "counties": [
+        "Hutchinson",
+        "Moore"
+      ]
+    },
+    {
+      "slug": "garland-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Collin",
+        "Dallas",
+        "Rockwall"
+      ]
+    },
+    {
+      "slug": "gladewater-tx",
+      "county": "Gregg",
+      "primary": "Gregg",
+      "counties": [
+        "Gregg",
+        "Upshur"
+      ]
+    },
+    {
+      "slug": "grand-prairie-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Ellis",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "grapevine-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Dallas",
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "hamlin-tx",
+      "county": "Jones",
+      "primary": "Jones",
+      "counties": [
+        "Fisher",
+        "Jones"
+      ]
+    },
+    {
+      "slug": "happy-tx",
+      "county": "Swisher",
+      "primary": "Swisher",
+      "counties": [
+        "Randall",
+        "Swisher"
+      ]
+    },
+    {
+      "slug": "haslet-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "hico-tx",
+      "county": "Hamilton",
+      "primary": "Hamilton",
+      "counties": [
+        "Erath",
+        "Hamilton"
+      ]
+    },
+    {
+      "slug": "horseshoe-bay-tx",
+      "county": "Llano",
+      "primary": "Llano",
+      "counties": [
+        "Burnet",
+        "Llano"
+      ]
+    },
+    {
+      "slug": "houston-tx",
+      "county": "Harris",
+      "primary": "Harris",
+      "counties": [
+        "Fort Bend",
+        "Harris",
+        "Montgomery",
+        "Waller"
+      ]
+    },
+    {
+      "slug": "hughes-springs-tx",
+      "county": "Cass",
+      "primary": "Cass",
+      "counties": [
+        "Cass",
+        "Morris"
+      ]
+    },
+    {
+      "slug": "ingleside-tx",
+      "county": "San Patricio",
+      "primary": "San Patricio",
+      "counties": [
+        "Nueces",
+        "San Patricio"
+      ]
+    },
+    {
+      "slug": "josephine-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Hunt"
+      ]
+    },
+    {
+      "slug": "katy-tx",
+      "county": "Waller",
+      "primary": "Waller",
+      "counties": [
+        "Fort Bend",
+        "Harris",
+        "Waller"
+      ]
+    },
+    {
+      "slug": "kilgore-tx",
+      "county": "Gregg",
+      "primary": "Gregg",
+      "counties": [
+        "Gregg",
+        "Rusk"
+      ]
+    },
+    {
+      "slug": "league-city-tx",
+      "county": "Galveston",
+      "primary": "Galveston",
+      "counties": [
+        "Galveston",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "leander-tx",
+      "county": "Williamson",
+      "primary": "Williamson",
+      "counties": [
+        "Travis",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "lewisville-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Dallas",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "longview-tx",
+      "county": "Gregg",
+      "primary": "Gregg",
+      "counties": [
+        "Gregg",
+        "Harrison"
+      ]
+    },
+    {
+      "slug": "lueders-tx",
+      "county": "Jones",
+      "primary": "Jones",
+      "counties": [
+        "Jones",
+        "Shackelford"
+      ]
+    },
+    {
+      "slug": "luling-tx",
+      "county": "Caldwell",
+      "primary": "Caldwell",
+      "counties": [
+        "Caldwell",
+        "Guadalupe"
+      ]
+    },
+    {
+      "slug": "lytle-tx",
+      "county": "Atascosa",
+      "primary": "Atascosa",
+      "counties": [
+        "Atascosa",
+        "Bexar",
+        "Medina"
+      ]
+    },
+    {
+      "slug": "mabank-tx",
+      "county": "Henderson",
+      "primary": "Kaufman",
+      "counties": [
+        "Henderson",
+        "Kaufman"
+      ]
+    },
+    {
+      "slug": "mansfield-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Ellis",
+        "Johnson",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "mart-tx",
+      "county": "McLennan",
+      "primary": "McLennan",
+      "counties": [
+        "Limestone",
+        "McLennan"
+      ]
+    },
+    {
+      "slug": "mesquite-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Kaufman"
+      ]
+    },
+    {
+      "slug": "midland-tx",
+      "county": "Midland",
+      "primary": "Midland",
+      "counties": [
+        "Martin",
+        "Midland"
+      ]
+    },
+    {
+      "slug": "mineral-wells-tx",
+      "county": "Palo Pinto",
+      "primary": "Palo Pinto",
+      "counties": [
+        "Palo Pinto",
+        "Parker"
+      ]
+    },
+    {
+      "slug": "missouri-city-tx",
+      "county": "Fort Bend",
+      "primary": "Fort Bend",
+      "counties": [
+        "Fort Bend",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "monahans-tx",
+      "county": "Ward",
+      "primary": "Winkler",
+      "counties": [
+        "Ward",
+        "Winkler"
+      ]
+    },
+    {
+      "slug": "mont-belvieu-tx",
+      "county": "Chambers",
+      "primary": "Chambers",
+      "counties": [
+        "Chambers",
+        "Liberty"
+      ]
+    },
+    {
+      "slug": "navasota-tx",
+      "county": "Brazos",
+      "primary": "Grimes",
+      "counties": [
+        "Brazos",
+        "Grimes"
+      ]
+    },
+    {
+      "slug": "new-braunfels-tx",
+      "county": "Comal",
+      "primary": "Comal",
+      "counties": [
+        "Comal",
+        "Guadalupe"
+      ]
+    },
+    {
+      "slug": "newark-tx",
+      "county": "Wise",
+      "primary": "Wise",
+      "counties": [
+        "Tarrant",
+        "Wise"
+      ]
+    },
+    {
+      "slug": "nixon-tx",
+      "county": "Gonzales",
+      "primary": "Gonzales",
+      "counties": [
+        "Gonzales",
+        "Wilson"
+      ]
+    },
+    {
+      "slug": "normangee-tx",
+      "county": "Leon",
+      "primary": "Leon",
+      "counties": [
+        "Leon",
+        "Madison"
+      ]
+    },
+    {
+      "slug": "oakwood-tx",
+      "county": "Leon",
+      "primary": "Leon",
+      "counties": [
+        "Freestone",
+        "Leon"
+      ]
+    },
+    {
+      "slug": "odessa-tx",
+      "county": "Ector",
+      "primary": "Ector",
+      "counties": [
+        "Ector",
+        "Midland"
+      ]
+    },
+    {
+      "slug": "overton-tx",
+      "county": "Rusk",
+      "primary": "Rusk",
+      "counties": [
+        "Rusk",
+        "Smith"
+      ]
+    },
+    {
+      "slug": "pearland-tx",
+      "county": "Brazoria",
+      "primary": "Brazoria",
+      "counties": [
+        "Brazoria",
+        "Fort Bend",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "pecan-gap-tx",
+      "county": "Delta",
+      "primary": "Delta",
+      "counties": [
+        "Delta",
+        "Fannin"
+      ]
+    },
+    {
+      "slug": "pflugerville-tx",
+      "county": "Travis",
+      "primary": "Travis",
+      "counties": [
+        "Travis",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "pilot-point-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Cooke",
+        "Denton",
+        "Grayson"
+      ]
+    },
+    {
+      "slug": "plano-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "port-arthur-tx",
+      "county": "Jefferson",
+      "primary": "Jefferson",
+      "counties": [
+        "Jefferson",
+        "Orange"
+      ]
+    },
+    {
+      "slug": "portland-tx",
+      "county": "San Patricio",
+      "primary": "San Patricio",
+      "counties": [
+        "Nueces",
+        "San Patricio"
+      ]
+    },
+    {
+      "slug": "prosper-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "reklaw-tx",
+      "county": "Rusk",
+      "primary": "Rusk",
+      "counties": [
+        "Cherokee",
+        "Rusk"
+      ]
+    },
+    {
+      "slug": "richardson-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Collin",
+        "Dallas"
+      ]
+    },
+    {
+      "slug": "roanoke-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "round-rock-tx",
+      "county": "Williamson",
+      "primary": "Williamson",
+      "counties": [
+        "Travis",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "rowlett-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Rockwall"
+      ]
+    },
+    {
+      "slug": "royse-city-tx",
+      "county": "Rockwall",
+      "primary": "Rockwall",
+      "counties": [
+        "Collin",
+        "Hunt",
+        "Rockwall"
+      ]
+    },
+    {
+      "slug": "sachse-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Collin",
+        "Dallas"
+      ]
+    },
+    {
+      "slug": "san-antonio-tx",
+      "county": "Bexar",
+      "primary": "Bexar",
+      "counties": [
+        "Bexar",
+        "Comal",
+        "Medina"
+      ]
+    },
+    {
+      "slug": "san-diego-tx",
+      "county": "Duval",
+      "primary": "Duval",
+      "counties": [
+        "Duval",
+        "Jim Wells"
+      ]
+    },
+    {
+      "slug": "san-marcos-tx",
+      "county": "Hays",
+      "primary": "Hays",
+      "counties": [
+        "Caldwell",
+        "Guadalupe",
+        "Hays"
+      ]
+    },
+    {
+      "slug": "sanger-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Cooke",
+        "Denton"
+      ]
+    },
+    {
+      "slug": "schertz-tx",
+      "county": "Guadalupe",
+      "primary": "Guadalupe",
+      "counties": [
+        "Bexar",
+        "Comal",
+        "Guadalupe"
+      ]
+    },
+    {
+      "slug": "seabrook-tx",
+      "county": "Harris",
+      "primary": "Harris",
+      "counties": [
+        "Chambers",
+        "Galveston",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "seagoville-tx",
+      "county": "Dallas",
+      "primary": "Dallas",
+      "counties": [
+        "Dallas",
+        "Kaufman"
+      ]
+    },
+    {
+      "slug": "southlake-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "springtown-tx",
+      "county": "Parker",
+      "primary": "Parker",
+      "counties": [
+        "Parker",
+        "Wise"
+      ]
+    },
+    {
+      "slug": "stafford-tx",
+      "county": "Fort Bend",
+      "primary": "Fort Bend",
+      "counties": [
+        "Fort Bend",
+        "Harris"
+      ]
+    },
+    {
+      "slug": "stamford-tx",
+      "county": "Jones",
+      "primary": "Haskell",
+      "counties": [
+        "Haskell",
+        "Jones"
+      ]
+    },
+    {
+      "slug": "streetman-tx",
+      "county": "Navarro",
+      "primary": "Navarro",
+      "counties": [
+        "Freestone",
+        "Navarro"
+      ]
+    },
+    {
+      "slug": "tatum-tx",
+      "county": "Rusk",
+      "primary": "Rusk",
+      "counties": [
+        "Panola",
+        "Rusk"
+      ]
+    },
+    {
+      "slug": "texas-city-tx",
+      "county": "Galveston",
+      "primary": "Galveston",
+      "counties": [
+        "Chambers",
+        "Galveston"
+      ]
+    },
+    {
+      "slug": "thorndale-tx",
+      "county": "Milam",
+      "primary": "Milam",
+      "counties": [
+        "Milam",
+        "Williamson"
+      ]
+    },
+    {
+      "slug": "tomball-tx",
+      "county": "Harris",
+      "primary": "Harris",
+      "counties": [
+        "Harris",
+        "Montgomery"
+      ]
+    },
+    {
+      "slug": "trenton-tx",
+      "county": "Fannin",
+      "primary": "Fannin",
+      "counties": [
+        "Collin",
+        "Fannin",
+        "Grayson"
+      ]
+    },
+    {
+      "slug": "troup-tx",
+      "county": "Smith",
+      "primary": "Smith",
+      "counties": [
+        "Cherokee",
+        "Smith"
+      ]
+    },
+    {
+      "slug": "valley-mills-tx",
+      "county": "Bosque",
+      "primary": "Bosque",
+      "counties": [
+        "Bosque",
+        "McLennan"
+      ]
+    },
+    {
+      "slug": "van-alstyne-tx",
+      "county": "Grayson",
+      "primary": "Grayson",
+      "counties": [
+        "Collin",
+        "Grayson"
+      ]
+    },
+    {
+      "slug": "venus-tx",
+      "county": "Johnson",
+      "primary": "Johnson",
+      "counties": [
+        "Ellis",
+        "Johnson"
+      ]
+    },
+    {
+      "slug": "waller-tx",
+      "county": "Waller",
+      "primary": "Waller",
+      "counties": [
+        "Harris",
+        "Waller"
+      ]
+    },
+    {
+      "slug": "whitewright-tx",
+      "county": "Grayson",
+      "primary": "Grayson",
+      "counties": [
+        "Fannin",
+        "Grayson"
+      ]
+    },
+    {
+      "slug": "windthorst-tx",
+      "county": "Archer",
+      "primary": "Archer",
+      "counties": [
+        "Archer",
+        "Clay"
+      ]
+    },
+    {
+      "slug": "winnsboro-tx",
+      "county": "Wood",
+      "primary": "Wood",
+      "counties": [
+        "Franklin",
+        "Wood"
+      ]
+    },
+    {
+      "slug": "wylie-tx",
+      "county": "Collin",
+      "primary": "Collin",
+      "counties": [
+        "Collin",
+        "Dallas",
+        "Rockwall"
+      ]
+    },
+    {
+      "slug": "yoakum-tx",
+      "county": "Lavaca",
+      "primary": "Lavaca",
+      "counties": [
+        "DeWitt",
+        "Lavaca"
+      ]
+    },
+    {
+      "slug": "westlake-tx",
+      "county": "Tarrant",
+      "primary": "Tarrant",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    },
+    {
+      "slug": "trophy-club-tx",
+      "county": "Denton",
+      "primary": "Denton",
+      "counties": [
+        "Denton",
+        "Tarrant"
+      ]
+    }
+  ],
+  "types": {
+    "city": 758,
+    "town": 161,
+    "CDP": 200,
+    "village": 2
+  },
+  "coordinateSkipped": [
+    {
+      "slug": "aransas-pass-tx",
+      "deviationMi": 2.9,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "buchanan-dam-tx",
+      "deviationMi": 3.9,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "corpus-christi-tx",
+      "deviationMi": 14.3,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "fulton-tx",
+      "deviationMi": 17.5,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "galveston-tx",
+      "deviationMi": 13,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "hitchcock-tx",
+      "deviationMi": 4.1,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "port-arthur-tx",
+      "deviationMi": 4.3,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "seabrook-tx",
+      "deviationMi": 2.7,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "stamford-tx",
+      "deviationMi": 13,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "texas-city-tx",
+      "deviationMi": 3,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "thompsons-tx",
+      "deviationMi": 3.3,
+      "reason": "water-dominated place; internal point unreliable"
+    },
+    {
+      "slug": "wylie-tx",
+      "deviationMi": 2.5,
+      "reason": "water-dominated place; internal point unreliable"
+    }
+  ]
+}

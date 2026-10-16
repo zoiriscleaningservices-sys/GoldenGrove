@@ -1,0 +1,25 @@
+{
+  "_comment": "Verified Texas places that had dedicated hub templates and live production URLs but were missing from cities.json (so they 404'd in the Next.js app). Coordinates from the Wikipedia REST summary API (retrieved 2026-10-15). scripts/build-geo.mjs merges these into cities.json and recomputes nearby relationships.",
+  "add": [
+    { "name": "Highland Park", "slug": "highland-park-tx", "county": "Dallas", "lat": 32.830278, "lng": -96.801111, "placeType": "town" },
+    { "name": "University Park", "slug": "university-park-tx", "county": "Dallas", "lat": 32.849444, "lng": -96.791944, "placeType": "city" },
+    { "name": "Westlake", "slug": "westlake-tx", "county": "Tarrant", "lat": 32.997222, "lng": -97.208333, "placeType": "town" },
+    { "name": "West Lake Hills", "slug": "west-lake-hills-tx", "county": "Travis", "lat": 30.291944, "lng": -97.808333, "placeType": "city" },
+    { "name": "Trophy Club", "slug": "trophy-club-tx", "county": "Denton", "lat": 33.004167, "lng": -97.192778, "placeType": "town" },
+    { "name": "Lakeway", "slug": "lakeway-tx", "county": "Travis", "lat": 30.365278, "lng": -97.976111, "placeType": "city" },
+    { "name": "Bee Cave", "slug": "bee-cave-tx", "county": "Travis", "lat": 30.306944, "lng": -97.965278, "placeType": "city" },
+    { "name": "Terrell Hills", "slug": "terrell-hills-tx", "county": "Bexar", "lat": 29.48, "lng": -98.446389, "placeType": "city" },
+    { "name": "Alamo Heights", "slug": "alamo-heights-tx", "county": "Bexar", "lat": 29.482778, "lng": -98.467222, "placeType": "city" },
+    { "name": "Barton Creek", "slug": "barton-creek-tx", "county": "Travis", "lat": 30.28, "lng": -97.873611, "placeType": "cdp" }
+  ],
+  "neighborhoodRedirects": {
+    "_comment": "Legacy production slugs that are neighborhoods inside a larger city, not independent places. Their URLs 301 to the parent city.",
+    "dominion-tx": "san-antonio-tx",
+    "stone-oak-tx": "san-antonio-tx",
+    "tarrytown-tx": "austin-tx"
+  },
+  "countyOverrides": {
+    "_comment": "Primary-county corrections where the Census internal point falls in a secondary county. Monahans is the county seat of Ward County; its annexed limits extend into Winkler County.",
+    "monahans-tx": "Ward"
+  }
+}

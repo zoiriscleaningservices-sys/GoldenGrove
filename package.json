@@ -5,7 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "seo:validate": "node scripts/validate-data.mjs",
+    "seo:routes": "node --test scripts/test-routes.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs",
+    "seo:dates": "node scripts/content-dates.mjs",
+    "seo:geo": "node scripts/build-geo.mjs",
+    "test": "node scripts/validate-data.mjs && node --test scripts/test-routes.mjs && node scripts/seo-audit.mjs"
   },
   "dependencies": {
     "next": "16.4.1",

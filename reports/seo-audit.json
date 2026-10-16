@@ -1,0 +1,313 @@
+{
+  "timestamp": "2026-10-16T03:27:47.624Z",
+  "summary": {
+    "totalChecks": 6007,
+    "passed": 6007,
+    "failed": 0,
+    "warnings": 0
+  },
+  "robots": {
+    "lineCount": 6,
+    "valid": true
+  },
+  "sitemaps": {
+    "totalUrls": 1178,
+    "uniqueUrls": 1178,
+    "breakdown": {
+      "pages": {
+        "urlCount": 33,
+        "bytes": 4174
+      },
+      "cities": {
+        "urlCount": 1121,
+        "bytes": 128758
+      },
+      "city-services": {
+        "urlCount": 24,
+        "bytes": 3417
+      }
+    }
+  },
+  "pageAudit": [
+    {
+      "path": "/",
+      "tier": "home",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/about/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/locations/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/book-now/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/gallery/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/blog/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/privacy-policy/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/terms-and-conditions/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/texas-service-areas/",
+      "tier": "core",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/house-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/deep-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/move-out-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/commercial-janitorial/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/airbnb-turnover/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/post-construction-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/carpet-upholstery-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/window-cleaning/",
+      "tier": "service",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/midland-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/dallas-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/houston-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/austin-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/san-antonio-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/fort-worth-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/el-paso-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/abbott-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/abernathy-tx/",
+      "tier": "cityHub",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/midland-tx/house-cleaning/",
+      "tier": "cityServicePriority",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/midland-tx/deep-cleaning/",
+      "tier": "cityServicePriority",
+      "index": true,
+      "sitemap": true
+    },
+    {
+      "path": "/dallas-tx/house-cleaning/",
+      "tier": "cityService",
+      "index": true,
+      "sitemap": false
+    },
+    {
+      "path": "/abbott-tx/house-cleaning/",
+      "tier": "cityService",
+      "index": true,
+      "sitemap": false
+    },
+    {
+      "path": "/el-paso-tx/deep-cleaning/",
+      "tier": "cityService",
+      "index": true,
+      "sitemap": false
+    }
+  ],
+  "redirectAudit": [
+    {
+      "testPath": "/Dallas-TX/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/dallas-tx/"
+    },
+    {
+      "testPath": "/DALLAS-TX/HOUSE-CLEANING/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/dallas-tx/house-cleaning/"
+    },
+    {
+      "testPath": "/abbott-tx/about/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/about/"
+    },
+    {
+      "testPath": "/dallas-tx/blog/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/blog/"
+    },
+    {
+      "testPath": "/move-in-move-out-cleaning/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/move-out-cleaning/"
+    },
+    {
+      "testPath": "/commercial-janitorial-services/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/commercial-janitorial/"
+    },
+    {
+      "testPath": "/abbott-tx/odessa-tx/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/odessa-tx/"
+    },
+    {
+      "testPath": "/dallas-tx/gym-cleaning/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/dallas-tx/gym-fitness-center-cleaning/"
+    },
+    {
+      "testPath": "/gym-cleaning/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/gym-fitness-center-cleaning/"
+    },
+    {
+      "testPath": "/abbott-tx/abbott-heights/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/abbott-tx/"
+    },
+    {
+      "testPath": "/abbott-tx/downtown-abbott/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/abbott-tx/"
+    },
+    {
+      "testPath": "/austin-tx/barton-creek-tx/deep-cleaning/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/barton-creek-tx/deep-cleaning/"
+    },
+    {
+      "testPath": "/dominion-tx/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/san-antonio-tx/"
+    },
+    {
+      "testPath": "/privacy/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/privacy-policy/"
+    },
+    {
+      "testPath": "/terms/",
+      "type": "redirect",
+      "status": 301,
+      "location": "/terms-and-conditions/"
+    }
+  ],
+  "failures": [],
+  "warnings": []
+}

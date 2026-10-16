@@ -16,7 +16,15 @@ const nextConfig = {
         destination: '/sitemap.xml',
         permanent: true,
       },
+      {
+        source: '/sitemap_:n(\\d+).xml',
+        destination: '/sitemap.xml',
+        permanent: true,
+      },
     ];
+  },
+  outputFileTracingIncludes: {
+    '/**': ['./templates/**/*', './data/**/*'],
   },
 };
 

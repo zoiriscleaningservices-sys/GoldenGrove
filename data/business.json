@@ -1,0 +1,32 @@
+{
+  "_comment": "Single source of truth for business facts used by the render pipeline and structured data. Only verified or consistently published facts belong here. Fields set to null are deliberately omitted from pages until the business owner confirms them.",
+  "name": "Golden Grove Cleaning",
+  "url": "https://www.goldengrovecleaning.com",
+  "telephone": "+14322181700",
+  "phoneDisplay": "(432) 218-1700",
+  "email": "info@goldengrovecleaning.com",
+  "logo": "https://www.goldengrovecleaning.com/images/logo.jpeg",
+  "addressRegion": "TX",
+  "addressCountry": "US",
+  "streetAddress": null,
+  "postalCode": null,
+  "reviewCount": null,
+  "ratingValue": null,
+  "description": "Golden Grove Cleaning provides residential and commercial cleaning services in Texas, including house cleaning, deep cleaning, move-in/move-out cleaning, Airbnb turnovers, and commercial janitorial services.",
+  "homeMarket": "midland-tx",
+  "pricingStatement": "Pricing depends on the size, condition, and scope of the job, so Golden Grove Cleaning provides a free, no-obligation quote before any work begins.",
+  "verification": {
+    "_comment": "Status of claims found on the site as of 2026-10-15. 'conflicting' claims were removed from rendered pages; 'unverified' claims are retained as published and need owner confirmation.",
+    "telephone": "consistent across all pages",
+    "email": "published on homepage; not independently verified",
+    "streetAddress": "not published anywhere valid (homepage schema used streetAddress 'Texas'); omitted",
+    "reviewCount": "conflicting (94, 98, 127, 143, 148 found across templates); removed",
+    "ratingValue": "unverified 4.9 rating paired with conflicting counts; removed",
+    "pricing": "conflicting (Dallas $120-$180 vs statewide 'starts at $150'; deep clean $200-$400 vs $250); removed and replaced with pricingStatement",
+    "openingHours": "unverified; retained as published (Mon-Sat 07:00-19:00)",
+    "bondedInsuredBackgroundChecked": "unverified; retained as published; owner must confirm",
+    "satisfactionGuarantee": "unverified; retained as published (24-hour re-clean); owner must confirm",
+    "testimonials": "unverified; named testimonials on homepage and Dallas page need owner confirmation; per-city Review schema removed",
+    "serviceArea": "unverified; site claims statewide coverage; production priority sitemap and 432 area code indicate Midland as home market"
+  }
+}
