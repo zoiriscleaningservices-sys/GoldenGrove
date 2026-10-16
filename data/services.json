@@ -1,0 +1,194 @@
+[
+  {
+    "slug": "airbnb-turnover",
+    "name": "Airbnb Turnover",
+    "description": "Reliable Airbnb turnover cleaning in {city} TX. 5-star hotel standard cleaning, linen service, and restocking for your short-term rental.",
+    "icon": "fa-key",
+    "image": "/images/Airbnb.webp",
+    "shortDesc": "Reliable, top-rated airbnb turnover across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "airbnb-vacation-rental-management",
+    "name": "Airbnb Vacation Rental Management",
+    "description": "Reliable airbnb & vacation rental management in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-house-circle-check",
+    "image": "/images/Airbnb.webp",
+    "shortDesc": "Reliable, top-rated airbnb vacation rental management across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "carpet-upholstery-cleaning",
+    "name": "Carpet Upholstery Cleaning",
+    "description": "Best carpet cleaning in {city} TX. We use professional steam cleaning to remove stains, odors, and allergens. Revive your carpets today!",
+    "icon": "fa-rug",
+    "image": "/images/Carpet.webp",
+    "shortDesc": "Reliable, top-rated carpet upholstery cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "church-worship-center-cleaning",
+    "name": "Church Worship Center Cleaning",
+    "description": "Reliable church & worship center cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-church",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated church worship center cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "commercial-janitorial",
+    "name": "Commercial Janitorial",
+    "description": "Reliable commercial cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-building",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated commercial janitorial across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "deep-cleaning",
+    "name": "Deep Cleaning",
+    "description": "Top-rated deep cleaning in {city} TX. Our detail cleaning service removes hidden dust, allergens, and grime from top to bottom. Perfect for spring cleaning!",
+    "icon": "fa-broom",
+    "image": "/images/deep-cleaning.webp",
+    "shortDesc": "Reliable, top-rated deep cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "floor-stripping-waxing",
+    "name": "Floor Stripping Waxing",
+    "description": "Reliable floor stripping & waxing in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-fill-drip",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated floor stripping waxing across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "gutter-cleaning",
+    "name": "Gutter Cleaning",
+    "description": "Reliable gutter cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-cloud-rain",
+    "image": "/images/window-cleaning.webp",
+    "shortDesc": "Reliable, top-rated gutter cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "gym-fitness-center-cleaning",
+    "name": "Gym Fitness Center Cleaning",
+    "description": "Reliable gym & fitness center cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-dumbbell",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated gym fitness center cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "home-watch-services",
+    "name": "Home Watch Services",
+    "description": "Reliable home watch services in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-eye",
+    "image": "/images/House cleaning.webp",
+    "shortDesc": "Reliable, top-rated home watch services across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "house-cleaning",
+    "name": "House Cleaning",
+    "description": "Best house cleaning in {city} TX. Our professional maids provide recurring weekly, bi-weekly, or monthly cleaning services tailored to your home",
+    "icon": "fa-house-chimney",
+    "image": "/images/house-cleaning.webp",
+    "shortDesc": "Reliable, top-rated house cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "industrial-warehouse-cleaning",
+    "name": "Industrial Warehouse Cleaning",
+    "description": "Reliable industrial & warehouse cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-warehouse",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated industrial warehouse cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "janitorial-cleaning-services",
+    "name": "Janitorial Cleaning Services",
+    "description": "Reliable janitorial cleaning services in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-clipboard-check",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated janitorial cleaning services across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "luxury-estate-cleaning",
+    "name": "Luxury Estate Cleaning",
+    "description": "Reliable luxury estate cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-gem",
+    "image": "/images/House cleaning.webp",
+    "shortDesc": "Reliable, top-rated luxury estate cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "luxury-estate-management",
+    "name": "Luxury Estate Management",
+    "description": "Reliable luxury estate management in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-crown",
+    "image": "/images/House cleaning.webp",
+    "shortDesc": "Reliable, top-rated luxury estate management across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "medical-dental-facility-cleaning",
+    "name": "Medical Dental Facility Cleaning",
+    "description": "Reliable medical & dental facility cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-hospital",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated medical dental facility cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "move-out-cleaning",
+    "name": "Move Out Cleaning",
+    "description": "Best move out cleaning in {city} TX. Guaranteed deposit back with our thorough move-in / move-out checklist. Landlord approved. Golden Grove Cleani...",
+    "icon": "fa-truck-moving",
+    "image": "/images/move-out-cleaning.webp",
+    "shortDesc": "Reliable, top-rated move out cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "office-janitorial-services",
+    "name": "Office Janitorial Services",
+    "description": "Reliable office janitorial services in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-briefcase",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated office janitorial services across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "post-construction-cleaning",
+    "name": "Post Construction Cleaning",
+    "description": "Expert post construction cleaning in {city} TX. We remove dust, stickers, and debris to make your new build or renovation move-in ready.",
+    "icon": "fa-trowel-bricks",
+    "image": "/images/post-construction.webp",
+    "shortDesc": "Reliable, top-rated post construction cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "property-maintenance",
+    "name": "Property Maintenance",
+    "description": "Reliable property maintenance in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-wrench",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated property maintenance across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "property-management-janitorial",
+    "name": "Property Management Janitorial",
+    "description": "Reliable property management janitorial in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-building-user",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated property management janitorial across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "school-daycare-cleaning",
+    "name": "School Daycare Cleaning",
+    "description": "Reliable school & daycare cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-school",
+    "image": "/images/Commercial.webp",
+    "shortDesc": "Reliable, top-rated school daycare cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "solar-panel-cleaning",
+    "name": "Solar Panel Cleaning",
+    "description": "Reliable solar panel cleaning in {city} TX. Offices, medical facilities, and retail spaces. Licensed, bonded, and insured janitorial services.",
+    "icon": "fa-solar-panel",
+    "image": "/images/window-cleaning.webp",
+    "shortDesc": "Reliable, top-rated solar panel cleaning across Texas with satisfaction guarantee."
+  },
+  {
+    "slug": "window-cleaning",
+    "name": "Window Cleaning",
+    "description": "Best window cleaning in {city} TX. Streak-free residential and commercial window washing. #1 rated local cleaners for a crystal clear view.",
+    "icon": "fa-spray-can-sparkles",
+    "image": "/images/window-cleaning.webp",
+    "shortDesc": "Reliable, top-rated window cleaning across Texas with satisfaction guarantee."
+  }
+]
